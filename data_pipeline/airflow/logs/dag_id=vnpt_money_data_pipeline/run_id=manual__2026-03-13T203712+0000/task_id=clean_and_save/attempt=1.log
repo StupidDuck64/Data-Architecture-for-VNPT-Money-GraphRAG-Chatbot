@@ -1,0 +1,21 @@
+[2026-03-13T20:48:22.348+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-13T20:48:22.374+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: vnpt_money_data_pipeline.clean_and_save manual__2026-03-13T20:37:12+00:00 [queued]>
+[2026-03-13T20:48:22.381+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: vnpt_money_data_pipeline.clean_and_save manual__2026-03-13T20:37:12+00:00 [queued]>
+[2026-03-13T20:48:22.382+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-13T20:48:22.397+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): clean_and_save> on 2026-03-13 20:37:12+00:00
+[2026-03-13T20:48:22.401+0000] {standard_task_runner.py:63} INFO - Started process 77 to run task
+[2026-03-13T20:48:22.404+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'vnpt_money_data_pipeline', 'clean_and_save', 'manual__2026-03-13T20:37:12+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/vnpt_pipeline_dag.py', '--cfg-path', '/tmp/tmp0dduvynf']
+[2026-03-13T20:48:22.405+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask clean_and_save
+[2026-03-13T20:48:22.478+0000] {task_command.py:426} INFO - Running <TaskInstance: vnpt_money_data_pipeline.clean_and_save manual__2026-03-13T20:37:12+00:00 [running]> on host 7f5837b08817
+[2026-03-13T20:48:22.609+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='vnpt_money_data_pipeline' AIRFLOW_CTX_TASK_ID='clean_and_save' AIRFLOW_CTX_EXECUTION_DATE='2026-03-13T20:37:12+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-13T20:37:12+00:00'
+[2026-03-13T20:48:22.610+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-13T20:48:22.804+0000] {minio_client.py:80} INFO - MinIO connected – bucket: vnpt-datalake
+[2026-03-13T20:48:22.979+0000] {data_cleaner.py:107} INFO - Cleaning complete: {'groups': 23, 'topics': 23, 'problems': 71, 'answers': 898, 'rels_has_topic': 23, 'rels_has_problem': 80, 'rels_has_answer': 934}
+[2026-03-13T20:48:23.076+0000] {minio_client.py:153} INFO - Uploaded s3://vnpt-datalake/clean/2026/03/13/20/run_20260313_204819_a82050/cleaned_data.json (2434340 bytes)
+[2026-03-13T20:48:23.093+0000] {vnpt_pipeline_dag.py:117} INFO - Clean saved: clean/2026/03/13/20/run_20260313_204819_a82050/cleaned_data.json
+[2026-03-13T20:48:23.094+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-13T20:48:23.094+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-13T20:48:23.108+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=vnpt_money_data_pipeline, task_id=clean_and_save, run_id=manual__2026-03-13T20:37:12+00:00, execution_date=20260313T203712, start_date=20260313T204822, end_date=20260313T204823
+[2026-03-13T20:48:23.137+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-13T20:48:23.169+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-13T20:48:23.172+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,35 @@
+# ── Pipeline image ──────────────────────────────────────────────────────────
+# Runs the stand-alone pipeline (crawl → MinIO → Neo4j) without Airflow.
+# Usage:
+#   docker build -f docker/Dockerfile.pipeline -t vnpt-pipeline .
+#   docker run --env-file .env vnpt-pipeline python pipeline/run_pipeline.py
+
+FROM python:3.11-slim AS base
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+# System deps (Playwright Chromium needs these)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        curl wget ca-certificates \
+        libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+        libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
+        libxfixes3 libxrandr2 libgbm1 libasound2 \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install Python dependencies
+COPY requirements.pipeline.txt .
+RUN pip install --upgrade pip && pip install -r requirements.pipeline.txt
+
+# Install Playwright browser
+RUN playwright install chromium --with-deps || true
+
+# Application code
+COPY pipeline/ /app/pipeline/
+COPY external_data/ /app/external_data/
+COPY src/ /app/src/
+
+CMD ["python", "pipeline/run_pipeline.py"]

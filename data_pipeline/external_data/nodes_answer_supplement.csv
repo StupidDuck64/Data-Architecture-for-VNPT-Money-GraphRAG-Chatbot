@@ -1,0 +1,64 @@
+id,title,content,steps,notes,status
+ho_tro_khach_hang__ans_nap_tien_loi_1,"Nạp tiền từ ngân hàng vào ví bị trừ tiền nhưng ví không cộng","Trong trường hợp Quý khách nạp tiền từ tài khoản ngân hàng vào ví VNPT Money nhưng tài khoản ngân hàng đã bị trừ tiền mà số dư ví không được cộng, xin vui lòng thực hiện theo các bước sau:
+
+1. **Đừng hoảng sợ và không thực hiện lại giao dịch ngay** - Việc thực hiện lại có thể dẫn đến trừ tiền 2 lần.
+
+2. **Chờ 15-30 phút** - Đôi khi do nghẽn mạng hoặc hệ thống đang xử lý, tiền sẽ được cộng sau vài phút.
+
+3. **Kiểm tra lịch sử giao dịch** - Vào mục Lịch sử giao dịch trên app VNPT Money để xem trạng thái giao dịch.
+
+4. **Liên hệ tổng đài 18001091 (nhánh 3)** - Nếu sau 30 phút vẫn chưa nhận được tiền, vui lòng gọi tổng đài để được hỗ trợ tra soát.
+
+Lưu ý: Với các giao dịch bị lỗi hệ thống, tiền sẽ được tự động hoàn về tài khoản ngân hàng trong vòng 1-3 ngày làm việc. Quý khách vui lòng cung cấp mã giao dịch khi liên hệ để được hỗ trợ nhanh chóng.","Bước 1: Không thực hiện lại giao dịch ngay;Bước 2: Chờ 15-30 phút để hệ thống xử lý;Bước 3: Kiểm tra lịch sử giao dịch trên app;Bước 4: Liên hệ hotline 18001091 nhánh 3 nếu vẫn chưa nhận tiền","Tiền sẽ được hoàn tự động trong 1-3 ngày làm việc nếu giao dịch lỗi;Cần cung cấp mã giao dịch khi liên hệ tổng đài",active
+ho_tro_khach_hang__ans_chuyen_tien_loi_1,"Chuyển tiền thất bại và tiền có bị mất không","Khi giao dịch chuyển tiền báo thất bại, Quý khách yên tâm rằng **tiền sẽ không bị mất**. Cơ chế xử lý như sau:
+
+**1. Giao dịch báo thất bại ngay lập tức:**
+- Tiền vẫn còn trong ví của bạn
+- Số dư không bị trừ
+- Có thể thực hiện lại giao dịch
+
+**2. Giao dịch trừ tiền nhưng báo thất bại:**
+- Tiền sẽ được hoàn về ví VNPT Money trong vòng 5-15 phút
+- Nếu quá 30 phút chưa hoàn, liên hệ 18001091 nhánh 3
+
+**3. Giao dịch pending (đang xử lý):**
+- Chờ tối đa 24 giờ để hệ thống xử lý
+- Không thực hiện lại giao dịch để tránh trừ tiền 2 lần
+
+Lưu ý: Tất cả giao dịch đều được ghi nhận và có thể tra soát. Quý khách vui lòng lưu lại mã giao dịch để được hỗ trợ nhanh chóng khi liên hệ tổng đài.","Bước 1: Kiểm tra số dư ví và lịch sử giao dịch;Bước 2: Chờ 15-30 phút để hệ thống xử lý hoàn tiền tự động;Bước 3: Nếu quá 30 phút chưa hoàn tiền, gọi 18001091 nhánh 3","Tiền không bị mất khi giao dịch thất bại;Thời gian hoàn tiền tự động: 5-30 phút;Giao dịch pending chờ tối đa 24 giờ",active
+ho_tro_khach_hang__ans_rut_tien_loi_1,"Rút tiền từ ví về ngân hàng bị lỗi hoặc chưa nhận được tiền","Khi Quý khách rút tiền từ ví VNPT Money về tài khoản ngân hàng nhưng chưa nhận được tiền:
+
+**Thời gian xử lý thông thường:**
+- Trong giờ hành chính: 5-15 phút
+- Ngoài giờ hành chính: Có thể mất 1-2 tiếng
+- Cuối tuần/ngày lễ: Có thể xử lý vào ngày làm việc tiếp theo
+
+**Các trường hợp cần lưu ý:**
+1. **Sai thông tin tài khoản nhận**: Kiểm tra lại số tài khoản, tên chủ tài khoản, ngân hàng
+2. **Ngân hàng đang bảo trì**: Chờ ngân hàng hoàn tất bảo trì
+3. **Lỗi hệ thống**: Tiền sẽ được hoàn về ví trong 24-48 giờ
+
+**Cách kiểm tra:**
+- Xem lịch sử giao dịch trên app VNPT Money
+- Kiểm tra email/SMS thông báo từ ngân hàng
+- Gọi 18001091 nhánh 3 để được tra soát","Bước 1: Chờ 15-30 phút với giao dịch trong giờ hành chính;Bước 2: Kiểm tra lịch sử giao dịch trên app;Bước 3: Gọi hotline 18001091 nhánh 3 nếu quá thời gian","Thời gian xử lý phụ thuộc vào ngân hàng nhận;Giao dịch ngoài giờ có thể xử lý chậm hơn",active
+ho_tro_khach_hang__ans_giao_dich_pending_1,"Giao dịch đang chờ xử lý (pending) quá lâu","Giao dịch hiển thị trạng thái 'Đang xử lý' hoặc 'Pending' có thể do một số nguyên nhân sau:
+
+**Nguyên nhân:**
+- Nghẽn mạng hoặc lỗi kết nối
+- Hệ thống đối tác đang bảo trì
+- Giao dịch cần xác minh bổ sung
+- Lỗi kỹ thuật tạm thời
+
+**Thời gian xử lý:**
+- Thông thường: 5-15 phút
+- Tối đa: 24 giờ
+- Nếu quá 24 giờ vẫn pending → Giao dịch sẽ tự động hủy và hoàn tiền
+
+**Hướng xử lý:**
+1. Chờ ít nhất 30 phút trước khi liên hệ
+2. Không thực hiện lại giao dịch tương tự
+3. Kiểm tra lịch sử giao dịch thường xuyên
+4. Gọi 18001091 nhánh 3 nếu cần tra soát
+
+Lưu ý: Với giao dịch pending, tiền đã được giữ lại và sẽ được xử lý hoặc hoàn trả. Quý khách không bị mất tiền.","Bước 1: Chờ 30 phút - 24 giờ để hệ thống tự xử lý;Bước 2: Không thực hiện lại giao dịch;Bước 3: Gọi 18001091 nhánh 3 nếu cần tra soát","Giao dịch pending sẽ tự động hủy sau 24 giờ;Tiền sẽ được hoàn về nếu giao dịch không thành công",active

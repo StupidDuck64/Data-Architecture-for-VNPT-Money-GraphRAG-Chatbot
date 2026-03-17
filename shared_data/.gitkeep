@@ -1,0 +1,17 @@
+# This folder is the integration bridge between the Data Pipeline and the Chatbot.
+#
+# DATA FLOW:
+#   [Airflow Pipeline]
+#       crawl → clean → load Neo4j → export_csv_to_shared (writes here)
+#                                            ↓
+#   [shared_data/]  ←── pipeline writes CSV files here after every run
+#         ↓
+#   [Neo4j container]  ← mounts this folder as /var/lib/neo4j/import
+#         ↓
+#   [Chatbot]  ← reads from Neo4j via Bolt (no need to re-ingest CSV manually)
+#
+# Files produced by the pipeline:
+#   nodes_group.csv, nodes_topic.csv, nodes_problem.csv, nodes_answer.csv
+#   nodes_problem_supplement.csv, nodes_answer_supplement.csv
+#   rels_has_topic.csv, rels_has_problem.csv, rels_has_answer.csv
+#   rels_has_answer_supplement.csv

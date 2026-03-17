@@ -1,0 +1,43 @@
+[2026-03-13T20:53:30.025+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-13T20:53:30.052+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: vnpt_money_data_pipeline.export_csv_to_shared manual__2026-03-13T20:37:12+00:00 [queued]>
+[2026-03-13T20:53:30.059+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: vnpt_money_data_pipeline.export_csv_to_shared manual__2026-03-13T20:37:12+00:00 [queued]>
+[2026-03-13T20:53:30.059+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2026-03-13T20:53:30.072+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): export_csv_to_shared> on 2026-03-13 20:37:12+00:00
+[2026-03-13T20:53:30.076+0000] {standard_task_runner.py:63} INFO - Started process 85 to run task
+[2026-03-13T20:53:30.079+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'vnpt_money_data_pipeline', 'export_csv_to_shared', 'manual__2026-03-13T20:37:12+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/vnpt_pipeline_dag.py', '--cfg-path', '/tmp/tmpjs13s5x4']
+[2026-03-13T20:53:30.081+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask export_csv_to_shared
+[2026-03-13T20:53:30.154+0000] {task_command.py:426} INFO - Running <TaskInstance: vnpt_money_data_pipeline.export_csv_to_shared manual__2026-03-13T20:37:12+00:00 [running]> on host 7f5837b08817
+[2026-03-13T20:53:30.266+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='vnpt_money_data_pipeline' AIRFLOW_CTX_TASK_ID='export_csv_to_shared' AIRFLOW_CTX_EXECUTION_DATE='2026-03-13T20:37:12+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-13T20:37:12+00:00'
+[2026-03-13T20:53:30.268+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-13T20:53:30.795+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-13T20:53:30.796+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 460, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/vnpt_pipeline_dag.py", line 153, in _export_csv
+    counts = loader.export_to_csv_dir(out_dir)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/pipeline/loaders/neo4j_loader.py", line 374, in export_to_csv_dir
+    _write_csv(out / filename, rows)
+  File "/opt/airflow/pipeline/loaders/neo4j_loader.py", line 392, in _write_csv
+    with open(path, "w", newline="", encoding="utf-8-sig") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/shared_data/nodes_group.csv'
+[2026-03-13T20:53:30.816+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=vnpt_money_data_pipeline, task_id=export_csv_to_shared, run_id=manual__2026-03-13T20:37:12+00:00, execution_date=20260313T203712, start_date=20260313T205330, end_date=20260313T205330
+[2026-03-13T20:53:30.829+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 16 for task export_csv_to_shared ([Errno 13] Permission denied: '/shared_data/nodes_group.csv'; 85)
+[2026-03-13T20:53:30.855+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-13T20:53:30.880+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-13T20:53:30.882+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,5 @@
+id,name,description,order
+quyen_rieng_tu,Quyền riêng tư,Chính sách bảo mật và xử lý thông tin khách hàng,1
+ho_tro_khach_hang,Hỗ trợ khách hàng,Hướng dẫn sử dụng dịch vụ VNPT Money,2
+dieu_khoan,Điều khoản,Điều khoản và điều kiện sử dụng dịch vụ,3
+dich_vu,Dịch vụ,Danh mục các dịch vụ thanh toán,4

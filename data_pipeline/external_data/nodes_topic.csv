@@ -1,0 +1,157 @@
+id,name,group_id,keywords,order
+quyen_rieng_tu__cach_thuc_xu_ly_thong_tin_khach_hang,Cách thức xử lý Thông tin Khách hàng,quyen_rieng_tu,,1
+quyen_rieng_tu__hau_qua_thiet_hai_khong_mong_muon,"Hậu quả, thiệt hại không mong muốn",quyen_rieng_tu,,2
+quyen_rieng_tu__luat_ap_dung,Luật áp dụng,quyen_rieng_tu,,3
+quyen_rieng_tu__luu_tru_thong_tin_khach_hang,Lưu trữ Thông tin Khách hàng,quyen_rieng_tu,,4
+quyen_rieng_tu__muc_dich_xu_ly_thong_tin_khach_hang,Mục đích xử lý Thông tin Khách hàng,quyen_rieng_tu,,5
+quyen_rieng_tu__nghia_vu_cua_khach_hang_doi_voi_thong_tin_khach_hang,Nghĩa vụ của Khách hàng đối với Thông tin Khách hàng,quyen_rieng_tu,,6
+quyen_rieng_tu__nghia_vu_cua_vnpt_doi_voi_thong_tin_khach_hang,Nghĩa vụ của VNPT đối với Thông tin Khách hàng,quyen_rieng_tu,,7
+quyen_rieng_tu__pham_vi_su_dung_thong_tin_khach_hang,Phạm vi sử dụng Thông tin Khách hàng,quyen_rieng_tu,,8
+quyen_rieng_tu__quyen_cua_khach_hang_doi_voi_thong_tin_khach_hang,Quyền của Khách hàng đối với Thông tin Khách hàng,quyen_rieng_tu,,9
+quyen_rieng_tu__quang_cao_tren_internet_va_ben_thu_ba,Quảng cáo trên internet và bên thứ ba,quyen_rieng_tu,,10
+quyen_rieng_tu__thong_tin_lien_lac,Thông tin liên lạc,quyen_rieng_tu,,11
+quyen_rieng_tu__thoi_gian_bat_dau_thoi_gian_ket_thuc_xu_ly_du_lieu,"Thời gian bắt đầu, thời gian kết thúc xử lý dữ liệu",quyen_rieng_tu,,12
+quyen_rieng_tu__xu_ly_thong_tin_khach_hang,Xử lý Thông tin Khách hàng,quyen_rieng_tu,,13
+ho_tro_khach_hang__bao_ve_va_luu_tru_thong_tin,Bảo vệ và lưu trữ thông tin,ho_tro_khach_hang,,14
+ho_tro_khach_hang__chia_se_va_tiet_lo_thong_tin,Chia sẻ và tiết lộ thông tin,ho_tro_khach_hang,,15
+ho_tro_khach_hang__chinh_sach_chung,Chính sách chung,ho_tro_khach_hang,,16
+ho_tro_khach_hang__huong_dan_chuyen_tien_mobile_money,Hướng dẫn chuyển tiền Mobile Money,ho_tro_khach_hang,,17
+ho_tro_khach_hang__huong_dan_naprut_tien_mobile_money,Hướng dẫn nạp/rút tiền Mobile Money,ho_tro_khach_hang,,18
+ho_tro_khach_hang__huong_dan_thanh_toan,Hướng dẫn thanh toán,ho_tro_khach_hang,,19
+ho_tro_khach_hang__huong_dan_thanh_toan_dich_vu_bang_mobile_money,Hướng dẫn thanh toán dịch vụ bằng Mobile Money,ho_tro_khach_hang,,20
+ho_tro_khach_hang__huong_dan_dang_ky_mobile_money,Hướng dẫn đăng ký Mobile Money,ho_tro_khach_hang,,21
+ho_tro_khach_hang__lien_ket_ngan_hang,Liên kết ngân hàng,ho_tro_khach_hang,,22
+ho_tro_khach_hang__muc_dich_thu_thap_thong_tin_ca_nhan,Mục đích thu thập thông tin cá nhân,ho_tro_khach_hang,,23
+ho_tro_khach_hang__quyen_va_nghia_vu_cua_khach_hang_lien_quan_den_bao_ve_du_lie,Quyền và nghĩa vụ của khách hàng liên quan đến bảo vệ dữ liệu cá nhân,ho_tro_khach_hang,,24
+ho_tro_khach_hang__thay_doi_thong_tin_ca_nhan,Thay đổi thông tin cá nhân,ho_tro_khach_hang,,25
+ho_tro_khach_hang__thu_thap_thong_tin_ca_nhan,Thu thập thông tin cá nhân,ho_tro_khach_hang,,26
+ho_tro_khach_hang__tro_giup_khac,Trợ giúp khác,ho_tro_khach_hang,,27
+ho_tro_khach_hang__tai_va_cap_nhat_ung_dung,Tải và cập nhật ứng dụng,ho_tro_khach_hang,,28
+ho_tro_khach_hang__dang_ky_tai_khoan_vnpt_money,Đăng ký tài khoản VNPT Money,ho_tro_khach_hang,,29
+ho_tro_khach_hang__dang_nhap_tai_khoan_vnpt_money,Đăng nhập tài khoản VNPT Money,ho_tro_khach_hang,,30
+ho_tro_khach_hang__dinh_danh_tai_khoan_vnpt_money,Định danh tài khoản VNPT Money,ho_tro_khach_hang,,31
+dieu_khoan__bieu_phi_va_han_muc_giao_dich,Biểu phí và hạn mức giao dịch,dieu_khoan,,32
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_vi_doanh_nghiep_,Bảo mật thông tin và Quyền sở hữu trí tuệ ở Ví doanh nghiệp VNPT PAY,dieu_khoan,,33
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_vi_dien_tu_vnpt_,Bảo mật thông tin và Quyền sở hữu trí tuệ ở Ví điện tử VNPT Pay,dieu_khoan,,34
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_dich_vu_mobile_m,Bảo mật thông tin và Quyền sở hữu trí tuệ ở dịch vụ Mobile Money,dieu_khoan,,35
+dieu_khoan__cam_ket_khi_su_dung_dich_vu_lien_ket_tai_khoan,Cam kết khi sử dụng dịch vụ liên kết tài khoản,dieu_khoan,,36
+dieu_khoan__cac_truong_hop_mien_trach_nhiem_o_vi_doanh_nghiep_vnpt_pay,Các trường hợp miễn trách nhiệm ở Ví doanh nghiệp VNPT PAY,dieu_khoan,,37
+dieu_khoan__cac_truong_hop_mien_trach_nhiem_o_vi_dien_tu_vnpt_pay,Các trường hợp miễn trách nhiệm ở Ví điện tử VNPT Pay,dieu_khoan,,38
+dieu_khoan__cac_dieu_khoan_khac,Các điều khoản khác,dieu_khoan,,39
+dieu_khoan__canh_bao_hanh_vi_vi_pham,Cảnh báo hành vi vi phạm,dieu_khoan,,40
+dieu_khoan__giao_dich_khong_huy_ngang_o_vi_doanh_nghiep_vnpt_pay,Giao dịch không huỷ ngang ở Ví doanh nghiệp VNPT PAY,dieu_khoan,,41
+dieu_khoan__giao_dich_khong_huy_ngang_o_vi_dien_tu_vnpt_pay,Giao dịch không huỷ ngang ở Ví điện tử VNPT Pay,dieu_khoan,,42
+dieu_khoan__giao_dich_khong_huy_ngang_o_dich_vu_mobile_money,Giao dịch không huỷ ngang ở dịch vụ Mobile Money,dieu_khoan,,43
+dieu_khoan__hieu_luc,Hiệu lực,dieu_khoan,,44
+dieu_khoan__hoan_tra_tien_o_vi_doanh_nghiep_vnpt_pay,Hoàn trả tiền ở Ví doanh nghiệp VNPT PAY,dieu_khoan,,45
+dieu_khoan__hoan_tra_tien_o_vi_dien_tu_vnpt_pay,Hoàn trả tiền ở Ví điện tử VNPT Pay,dieu_khoan,,46
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_cua_vi_doanh_nghiep,Luật điều chỉnh và Giải quyết tranh chấp của Ví doanh nghiệp VNPT PAY,dieu_khoan,,47
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_cua_vi_dien_tu_vnpt,Luật điều chỉnh và Giải quyết tranh chấp của Ví điện tử VNPT Pay,dieu_khoan,,48
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_cua_dich_vu_smartot,Luật điều chỉnh và Giải quyết tranh chấp của dịch vụ SmartOTP,dieu_khoan,,49
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_o_dich_vu_mobile_mo,Luật điều chỉnh và Giải quyết tranh chấp ở dịch vụ Mobile Money,dieu_khoan,,50
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay,Mở và sử dụng Ví doanh nghiệp VNPT PAY,dieu_khoan,,51
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay,Mở và sử dụng Ví điện tử VNPT Pay,dieu_khoan,,52
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money,Mở và sử dụng dịch vụ Mobile Money,dieu_khoan,,53
+dieu_khoan__phi_dich_vu_vi_dien_tu_vnpt_pay,Phí dịch vụ Ví điện tử VNPT Pay,dieu_khoan,,54
+dieu_khoan__phi_dich_vu_o_vi_doanh_nghiep_vnpt_pay,Phí dịch vụ ở Ví doanh nghiệp VNPT PAY,dieu_khoan,,55
+dieu_khoan__pham_vi_dieu_khoan_chap_thuan_cua_vi_dien_tu_vnpt_pay,Phạm vi & Điều khoản chấp thuận của Ví điện tử VNPT Pay,dieu_khoan,,56
+dieu_khoan__pham_vi_dich_vu_va_muc_giao_dich_ap_dung,Phạm vi dịch vụ và mức giao dịch áp dụng,dieu_khoan,,57
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_vi_doanh_nghiep_vn,Phạm vi áp dụng & Điều khoản chấp thuận của Ví doanh nghiệp VNPT PAY,dieu_khoan,,58
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_dich_vu_giao_dich_,Phạm vi áp dụng & Điều khoản chấp thuận của dịch vụ Giao dịch quốc tế,dieu_khoan,,59
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_dich_vu_mobile_mon,Phạm vi áp dụng & Điều khoản chấp thuận của dịch vụ Mobile Money,dieu_khoan,,60
+dieu_khoan__quy_dinh_su_dung_tinh_nang_lien_ket_tai_khoan,Quy định sử dụng tính năng liên kết tài khoản,dieu_khoan,,61
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te,Quy định về sử dụng Dịch vụ Giao dịch quốc tế,dieu_khoan,,62
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_doanh_nghiep_vnpt_pay,"Quy định xử lý tra soát, khiếu nại ở Ví doanh nghiệp VNPT PAY",dieu_khoan,,63
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_dien_tu_vnpt_pay,"Quy định xử lý tra soát, khiếu nại ở Ví điện tử VNPT Pay",dieu_khoan,,64
+dieu_khoan__quyen_va_nghia_vu_cac_ben_khi_dung_dich_vu_mobile_money,Quyền và nghĩa vụ các bên khi dùng dịch vụ Mobile Money,dieu_khoan,,65
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_smartotp,Quyền và nghĩa vụ của Khách hàng khi dùng SmartOTP,dieu_khoan,,66
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_vi_doanh_nghiep_vn,Quyền và nghĩa vụ của Khách hàng khi dùng Ví doanh nghiệp VNPT PAY,dieu_khoan,,67
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_vi_dien_tu_vnpt_pa,Quyền và nghĩa vụ của Khách hàng khi dùng Ví điện tử VNPT Pay,dieu_khoan,,68
+dieu_khoan__quyen_va_nghia_vu_cua_quy_khach_khi_dung_dich_vu_thanh_toan_,Quyền và nghĩa vụ của Quý Khách khi dùng dịch vụ thanh toán hóa đơn tự động,dieu_khoan,,69
+dieu_khoan__quyen_va_nghia_vu_cua_vnpt_khi_cung_cap_dich_vu_vi_dien_tu_v,Quyền và nghĩa vụ của VNPT khi cung cấp dịch vụ Ví điện tử VNPT Pay,dieu_khoan,,70
+dieu_khoan__quyen_va_nghia_vu_cua_vnpt_khi_cung_cap_dich_vu_vi_doanh_ngh,Quyền và nghĩa vụ của VNPT khi cung cấp dịch vụ ví doanh nghiệp VNPT PAY,dieu_khoan,,71
+dieu_khoan__quyen_va_nghia_vu_cua_vnptmedia_khi_cung_cap_dich_vu_smartot,Quyền và nghĩa vụ của VNPT-Media khi cung cấp dịch vụ SmartOTP,dieu_khoan,,72
+dieu_khoan__quyen_va_nghia_vu_cua_vnptmedia_khi_cung_cap_dich_vu_thanh_t,Quyền và nghĩa vụ của VNPT-Media khi cung cấp dịch vụ thanh toán hóa đơn tự động,dieu_khoan,,73
+dieu_khoan__sua_doi_bo_sung_dieu_kien_va_dieu_khoan,"Sửa đổi, bổ sung Điều kiện và Điều khoản",dieu_khoan,,74
+dieu_khoan__su_kien_bat_kha_khang_khi_dung_vi_dien_tu_vnpt_pay,Sự kiện bất khả kháng khi dùng Ví điện tử VNPT Pay,dieu_khoan,,75
+dieu_khoan__su_kien_bat_kha_khang_o_vi_doanh_nghiep_vnpt_pay,Sự kiện bất khả kháng ở Ví doanh nghiệp VNPT PAY,dieu_khoan,,76
+dieu_khoan__thay_doi_tam_dung_gia_han_va_cham_dut_dich_vu_vi_dien_tu_vnp,"Thay đổi, tạm dừng, gia hạn và chấm dứt Dịch vụ Ví điện tử VNPT Pay",dieu_khoan,,77
+dieu_khoan__thay_doi_tam_dung_gia_han_va_cham_dut_dich_vu_o_vi_doanh_ngh,"Thay đổi, tạm dừng, gia hạn và chấm dứt Dịch vụ ở Ví doanh nghiệp VNPT PAY",dieu_khoan,,78
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_vi_dien,"Thu thập, cung cấp thông tin và xử lý dữ liệu cá nhân Ví điện tử VNPT Pay",dieu_khoan,,79
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_o_vi_do,"Thu thập, cung cấp thông tin và xử lý dữ liệu cá nhân ở Ví doanh nghiệp VNPT PAY",dieu_khoan,,80
+dieu_khoan__thoa_thuan_chung_cua_dich_vu_lien_ket_thanh_toan_vnpt_money,Thỏa thuận chung của dịch vụ liên kết thanh toán VNPT Money,dieu_khoan,,81
+dieu_khoan__tiep_nhan_cung_cap_thong_tin_giai_quyet_tra_soat_khieu_nai,"Tiếp nhận, cung cấp thông tin, giải quyết, tra soát khiếu nại",dieu_khoan,,82
+dieu_khoan__tra_soat_xu_ly_khieu_nai_trong_qua_trinh_su_dung_dich_vu,"Tra soát, xử lý khiếu nại trong quá trình sử dụng dịch vụ",dieu_khoan,,83
+dieu_khoan__truong_hop_bat_kha_khang_o_dich_vu_mobile_money,Trường hợp bất khả kháng ở dịch vụ Mobile Money,dieu_khoan,,84
+dieu_khoan__tam_ngung_va_cham_dut_su_dung_dich_vu_mobile_money,Tạm ngừng và chấm dứt sử dụng dịch vụ Mobile Money,dieu_khoan,,85
+dieu_khoan__dieu_khoan_mien_trach_nhiem_cua_dich_vu_giao_dich_quoc_te,Điều khoản miễn trách nhiệm của dịch vụ Giao dịch quốc tế,dieu_khoan,,86
+dieu_khoan__dieu_khoan_mien_trach_nhiem_cua_dich_vu_lien_ket_thanh_toan_,Điều khoản miễn trách nhiệm của dịch vụ liên kết thanh toán VNPT Money,dieu_khoan,,87
+dieu_khoan__dieu_khoan_thi_hanh_cua_vi_doanh_nghiep_vnpt_pay,Điều khoản thi hành của Ví doanh nghiệp VNPT PAY,dieu_khoan,,88
+dieu_khoan__dieu_khoan_thi_hanh_cua_vi_dien_tu_vnpt_pay,Điều khoản thi hành của Ví điện tử VNPT Pay,dieu_khoan,,89
+dieu_khoan__dieu_kien_su_dung,Điều kiện sử dụng,dieu_khoan,,90
+dich_vu__aeon_finance,AEON Finance,dich_vu,,91
+dich_vu__bao_hiem_vietinbank,Bảo hiểm VietinBank,dich_vu,,92
+dich_vu__bao_hiem_so,Bảo hiểm số,dich_vu,,93
+dich_vu__cong_dich_vu_cong,Cổng dịch vụ công,dich_vu,,94
+dich_vu__data_3g4g,Data 3G/4G,dich_vu,,95
+dich_vu__dealtoday,DealToday,dich_vu,,96
+dich_vu__di_dong_tra_sau,Di động trả sau,dich_vu,,97
+dich_vu__fe_credit,FE Credit,dich_vu,,98
+dich_vu__goi_cuoc_digilife,Gói cước DigiLife,dich_vu,,99
+dich_vu__goi_cuoc_mytv,Gói cước MyTV,dich_vu,,100
+dich_vu__hoa_don_tai_chinh_bao_hiem,Hóa đơn Tài chính Bảo hiểm,dich_vu,,101
+dich_vu__hoa_don_vien_thong,Hóa đơn viễn thông,dich_vu,,102
+dich_vu__hoc_mai,Học mãi,dich_vu,,103
+dich_vu__hoc_phi,Học phí,dich_vu,,104
+dich_vu__hoc_phi_asc,Học phí ASC,dich_vu,,105
+dich_vu__hoc_phi_dtsoft,Học phí DTSoft,dich_vu,,106
+dich_vu__hoc_phi_ssc,Học phí SSC,dich_vu,,107
+dich_vu__hoc_phi_vnedu,Học phí VnEdu,dich_vu,,108
+dich_vu__internet_vnpt,Internet VNPT,dich_vu,,109
+dich_vu__internet_viettel,Internet Viettel,dich_vu,,110
+dich_vu__lazada,Lazada,dich_vu,,111
+dich_vu__msb_credit,MSB Credit,dich_vu,,112
+dich_vu__manulife,Manulife,dich_vu,,113
+dich_vu__mirae_asset,Mirae Asset,dich_vu,,114
+dich_vu__mua_ma_the,Mua mã thẻ,dich_vu,,115
+dich_vu__mua_ve_may_bay_olala,Mua vé máy bay olala,dich_vu,,116
+dich_vu__mua_ve_su_kien,Mua vé sự kiện,dich_vu,,117
+dich_vu__mua_ve_tau,Mua vé tàu,dich_vu,,118
+dich_vu__mua_ve_vui_choi,Mua vé vui chơi,dich_vu,,119
+dich_vu__mua_ve_xe_re,Mua vé xe rẻ,dich_vu,,120
+dich_vu__mytv,MyTV,dich_vu,,121
+dich_vu__nhan_tien_kieu_hoi,Nhận tiền kiều hối,dich_vu,,122
+dich_vu__nap_the_vinaid,Nạp thẻ VinaID,dich_vu,,123
+dich_vu__nap_tien_tu_dong,Nạp tiền tự động,dich_vu,,124
+dich_vu__nap_dien_thoai,Nạp điện thoại,dich_vu,,125
+dich_vu__nop_phi_xet_tuyen_dai_hoc,Nộp phí xét tuyển Đại học,dich_vu,,126
+dich_vu__nop_phat_giao_thong,Nộp phạt giao thông,dich_vu,,127
+dich_vu__nop_thue_le_phi_truoc_ba,Nộp thuế - lệ phí trước bạ,dich_vu,,128
+dich_vu__pvoil,PVOil,dich_vu,,129
+dich_vu__phi_chung_cu,Phí chung cư,dich_vu,,130
+dich_vu__phuong_tien_di_chuyen,Phương tiện di chuyển,dich_vu,,131
+dich_vu__sendo,Sendo,dich_vu,,132
+dich_vu__sieu_tich_luy,Siêu Tích Lũy,dich_vu,,133
+dich_vu__thanh_toan_tra_truoc_cuoc,Thanh toán trả trước cước,dich_vu,,134
+dich_vu__thanh_toan_tu_dong,Thanh toán tự động,dich_vu,,135
+dich_vu__thu_phi_ben_xe,Thu phí bến xe,dich_vu,,136
+dich_vu__thu_phi_dh_cd,Thu phí ĐH - CĐ,dich_vu,,137
+dich_vu__tiet_kiem_online,Tiết kiệm Online,dich_vu,,138
+dich_vu__tien_nuoc,Tiền nước,dich_vu,,139
+dich_vu__tien_dien,Tiền điện,dich_vu,,140
+dich_vu__truyen_hinh_k,Truyền hình K+,dich_vu,,141
+dich_vu__vnpt_money_du_hi,VNPT Money du hí,dich_vu,,142
+dich_vu__vtvcab,VTVcab,dich_vu,,143
+dich_vu__vay,Vay,dich_vu,,144
+dich_vu__vietlott_vinaphone,Vietlott VinaPhone,dich_vu,,145
+dich_vu__vien_thong_vntt,Viễn thông VNTT,dich_vu,,146
+dich_vu__ve_may_bay,Vé máy bay,dich_vu,,147
+dich_vu__vong_quay,Vòng quay,dich_vu,,148
+dich_vu__ve_sinh_moi_truong,Vệ sinh môi trường,dich_vu,,149
+dich_vu__diem_thanh_toan,Điểm thanh toán,dich_vu,,150
+dich_vu__dien_nuoc_khac,Điện nước khác,dich_vu,,151
+dich_vu__dien_thoai_co_dinh,Điện thoại cố định,dich_vu,,152
+dich_vu__dong_bhyt_bhxh,"Đóng BHYT, BHXH",dich_vu,,153
+dich_vu__don_hang_vnpt,Đơn hàng VNPT,dich_vu,,154
+dich_vu__dat_phong_khach_san,Đặt phòng khách sạn,dich_vu,,155
+dich_vu__dat_xe_taxi,Đặt xe taxi,dich_vu,,156

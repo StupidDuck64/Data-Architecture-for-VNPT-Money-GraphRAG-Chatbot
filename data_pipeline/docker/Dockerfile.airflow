@@ -1,0 +1,26 @@
+# ── Airflow image ────────────────────────────────────────────────────────────
+# Extends the official Airflow image with our pipeline dependencies.
+# Usage (via docker-compose):  docker-compose up airflow-webserver airflow-scheduler
+
+FROM apache/airflow:2.9.2-python3.11
+
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        curl wget ca-certificates \
+        libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+        libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
+        libxfixes3 libxrandr2 libgbm1 libasound2 \
+    && rm -rf /var/lib/apt/lists/*
+
+USER airflow
+
+# Install project deps into Airflow's Python
+COPY --chown=airflow:root requirements.pipeline.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements.pipeline.txt
+
+RUN playwright install chromium --with-deps || true
+
+# Copy source so DAGs can import pipeline modules
+COPY --chown=airflow:root pipeline/ ${AIRFLOW_HOME}/pipeline/
+COPY --chown=airflow:root src/      ${AIRFLOW_HOME}/src/
+COPY --chown=airflow:root airflow/dags/ ${AIRFLOW_HOME}/dags/

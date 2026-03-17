@@ -1,0 +1,459 @@
+﻿id,title,description,intent,keywords,sample_questions,status
+quyen_rieng_tu__xu_ly_thong_tin_khach_hang__prob_1,Trách nhiệm và các trường hợp VNPT xử lý thông tin,,trach_nhiem_va_cac_truong_hop_vnpt_xu_ly_thong_tin,,,active
+quyen_rieng_tu__xu_ly_thong_tin_khach_hang__prob_2,Loại dữ liệu cá nhân được VNPT xử lý,,loai_du_lieu_ca_nhan_duoc_vnpt_xu_ly,,,active
+quyen_rieng_tu__xu_ly_thong_tin_khach_hang__prob_3,Quy định về thông tin bắt buộc và thông tin tùy chọn,,quy_dinh_ve_thong_tin_bat_buoc_va_thong_tin_tuy_ch,,,active
+quyen_rieng_tu__xu_ly_thong_tin_khach_hang__prob_4,Hệ quả khi không cung cấp đủ thông tin bắt buộc,,he_qua_khi_khong_cung_cap_du_thong_tin_bat_buoc,,,active
+quyen_rieng_tu__xu_ly_thong_tin_khach_hang__prob_5,Ủy quyền hoặc thuê bên thứ ba xử lý thông tin,,uy_quyen_hoac_thue_ben_thu_ba_xu_ly_thong_tin,,,active
+quyen_rieng_tu__muc_dich_xu_ly_thong_tin_khach_hang__prob_1,Mục đích bắt buộc để cung cấp sản phẩm và dịch vụ,,muc_dich_bat_buoc_de_cung_cap_san_pham_va_dich_vu,,,active
+quyen_rieng_tu__muc_dich_xu_ly_thong_tin_khach_hang__prob_2,Mục đích để thực hiện nghĩa vụ pháp luật,,muc_dich_de_thuc_hien_nghia_vu_phap_luat,,,active
+quyen_rieng_tu__muc_dich_xu_ly_thong_tin_khach_hang__prob_3,Quy định về các mục đích xử lý thông tin tùy chọn,,quy_dinh_ve_cac_muc_dich_xu_ly_thong_tin_tuy_chon,,,active
+quyen_rieng_tu__muc_dich_xu_ly_thong_tin_khach_hang__prob_4,Cách thức từ chối các mục đích tiếp thị và quảng cáo,,cach_thuc_tu_choi_cac_muc_dich_tiep_thi_va_quang_c,,,active
+quyen_rieng_tu__muc_dich_xu_ly_thong_tin_khach_hang__prob_5,Chính sách về việc mua bán thông tin khách hàng,,chinh_sach_ve_viec_mua_ban_thong_tin_khach_hang,,,active
+quyen_rieng_tu__cach_thuc_xu_ly_thong_tin_khach_hang__prob_1,VNPT làm gì với Thông tin khách hàng,,vnpt_lam_gi_voi_thong_tin_khach_hang,,,active
+quyen_rieng_tu__thoi_gian_bat_dau_thoi_gian_ket_thuc_xu_ly_du_lieu__prob_1,Thời gian xử lý Thông tin Khách hàng,,thoi_gian_xu_ly_thong_tin_khach_hang,,,active
+quyen_rieng_tu__pham_vi_su_dung_thong_tin_khach_hang__prob_1,Các đối tượng VNPT được phép chia sẻ thông tin,,cac_doi_tuong_vnpt_duoc_phep_chia_se_thong_tin,,,active
+quyen_rieng_tu__pham_vi_su_dung_thong_tin_khach_hang__prob_2,Quy định về  đối tượng được chia sẻ thông tin khác,,quy_dinh_ve_doi_tuong_duoc_chia_se_thong_tin_khac,,,active
+quyen_rieng_tu__quyen_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_1,Các quyền của Khách hàng đối với Thông tin Khách hàng,,cac_quyen_cua_khach_hang_doi_voi_thong_tin_khach_h,,,active
+quyen_rieng_tu__quyen_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_2,"Quyền được biết, đồng ý, truy cập và chỉnh sửa thông tin",,quyen_duoc_biet_dong_y_truy_cap_va_chinh_sua_tho,,,active
+quyen_rieng_tu__quyen_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_3,"Quyền phản đối, hạn chế, rút lại sự đồng ý hoặc xóa dữ liệu",,quyen_phan_doi_han_che_rut_lai_su_dong_y_hoac_xo,,,active
+quyen_rieng_tu__quyen_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_4,"Quyền khiếu nại, bồi thường và tự bảo vệ pháp lý",,quyen_khieu_nai_boi_thuong_va_tu_bao_ve_phap_ly,,,active
+quyen_rieng_tu__nghia_vu_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_1,Tổng hợp các nghĩa vụ của khách hàng,,tong_hop_cac_nghia_vu_cua_khach_hang,,,active
+quyen_rieng_tu__nghia_vu_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_2,Chi tiết nghĩa vụ tự bảo vệ tài khoản và thiết bị công nghệ,,chi_tiet_nghia_vu_tu_bao_ve_tai_khoan_va_thiet_bi,,,active
+quyen_rieng_tu__nghia_vu_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_3,Chi tiết nghĩa vụ tự bảo vệ tài khoản và thiết bị công nghệ,,chi_tiet_nghia_vu_tu_bao_ve_tai_khoan_va_thiet_bi,,,active
+quyen_rieng_tu__nghia_vu_cua_khach_hang_doi_voi_thong_tin_khach_hang__prob_4,Nghĩa vụ tôn trọng thông tin người khác và tuân thủ pháp luật,,nghia_vu_ton_trong_thong_tin_nguoi_khac_va_tuan_th,,,active
+quyen_rieng_tu__luu_tru_thong_tin_khach_hang__prob_1,Địa điểm và tiêu chuẩn bảo mật lưu trữ thông tin,,dia_diem_va_tieu_chuan_bao_mat_luu_tru_thong_tin,,,active
+quyen_rieng_tu__luu_tru_thong_tin_khach_hang__prob_2,Thời gian lưu trữ thông tin khách hàng,,thoi_gian_luu_tru_thong_tin_khach_hang,,,active
+quyen_rieng_tu__nghia_vu_cua_vnpt_doi_voi_thong_tin_khach_hang__prob_1,Tổng hợp các nghĩa vụ và cam kết bảo mật của VNPT,,tong_hop_cac_nghia_vu_va_cam_ket_bao_mat_cua_vnpt,,,active
+quyen_rieng_tu__nghia_vu_cua_vnpt_doi_voi_thong_tin_khach_hang__prob_2,Các biện pháp bảo vệ thông tin và ngăn chặn truy cập trái phép,,cac_bien_phap_bao_ve_thong_tin_va_ngan_chan_truy_c,,,active
+quyen_rieng_tu__nghia_vu_cua_vnpt_doi_voi_thong_tin_khach_hang__prob_3,Trách nhiệm xử lý yêu cầu của khách hàng và sự cố hệ thống,,trach_nhiem_xu_ly_yeu_cau_cua_khach_hang_va_su_co,,,active
+quyen_rieng_tu__hau_qua_thiet_hai_khong_mong_muon__prob_1,Các rủi ro và thiệt hại không mong muốn có thể xảy ra,,cac_rui_ro_va_thiet_hai_khong_mong_muon_co_the_xay,,,active
+quyen_rieng_tu__hau_qua_thiet_hai_khong_mong_muon__prob_2,Trách nhiệm bồi thường khi xảy ra sự cố kỹ thuật,,trach_nhiem_boi_thuong_khi_xay_ra_su_co_ky_thuat,,,active
+quyen_rieng_tu__quang_cao_tren_internet_va_ben_thu_ba__prob_1,Quy định về quảng cáo của bên thứ ba trên hệ thống VNPT,,quy_dinh_ve_quang_cao_cua_ben_thu_ba_tren_he_thong,,,active
+quyen_rieng_tu__quang_cao_tren_internet_va_ben_thu_ba__prob_2,Phạm vi điều chỉnh đối với liên kết của bên thứ ba,,pham_vi_dieu_chinh_doi_voi_lien_ket_cua_ben_thu_ba,,,active
+quyen_rieng_tu__luat_ap_dung__prob_1,Quy định về luật áp dụng cho chính sách,,quy_dinh_ve_luat_ap_dung_cho_chinh_sach,,,active
+quyen_rieng_tu__thong_tin_lien_lac__prob_1,Các phương thức liên hệ để giải đáp,,cac_phuong_thuc_lien_he_de_giai_dap,,,active
+ho_tro_khach_hang__chinh_sach_chung__prob_1,Cam kết bảo mật thông tin của VNPT đối với khách hàng là gì?,,cam_ket_bao_mat_thong_tin_cua_vnpt_doi_voi_khach_h,,,active
+ho_tro_khach_hang__chinh_sach_chung__prob_2,"Quy định về việc khách hàng can thiệp, xâm nhập hoặc làm thay đổi hệ thống dữ liệu",,quy_dinh_ve_viec_khach_hang_can_thiep_xam_nhap_ho,,,active
+ho_tro_khach_hang__thu_thap_thong_tin_ca_nhan__prob_1,Những loại thông tin cá nhân nào của khách hàng được VNPT thu thập?,,nhung_loai_thong_tin_ca_nhan_nao_cua_khach_hang_du,,,active
+ho_tro_khach_hang__muc_dich_thu_thap_thong_tin_ca_nhan__prob_1,Mục đích VNPT thu thập và sử dụng thông tin cá nhân của khách hàng là gì?,,muc_dich_vnpt_thu_thap_va_su_dung_thong_tin_ca_nha,,,active
+ho_tro_khach_hang__thay_doi_thong_tin_ca_nhan__prob_1,Khách hàng có thể kiểm tra và cập nhật thông tin cá nhân bằng những cách nào?,,khach_hang_co_the_kiem_tra_va_cap_nhat_thong_tin_c,,,active
+ho_tro_khach_hang__bao_ve_va_luu_tru_thong_tin__prob_1,Thời gian VNPT lưu trữ thông tin cá nhân của khách hàng,,thoi_gian_vnpt_luu_tru_thong_tin_ca_nhan_cua_khach,,,active
+ho_tro_khach_hang__bao_ve_va_luu_tru_thong_tin__prob_2,Các biện pháp bảo mật dữ liệu cá nhân mà VNPT áp dụng,,cac_bien_phap_bao_mat_du_lieu_ca_nhan_ma_vnpt_ap_d,,,active
+ho_tro_khach_hang__chia_se_va_tiet_lo_thong_tin__prob_1,Những đối tượng nào được VNPT chia sẻ hoặc cung cấp thông tin khách hàng?,,nhung_doi_tuong_nao_duoc_vnpt_chia_se_hoac_cung_ca,,,active
+ho_tro_khach_hang__quyen_va_nghia_vu_cua_khach_hang_lien_quan_den_bao_ve_du_lie__prob_1,Khách hàng có những quyền gì đối với dữ liệu cá nhân của mình?,,khach_hang_co_nhung_quyen_gi_doi_voi_du_lieu_ca_nh,,,active
+ho_tro_khach_hang__quyen_va_nghia_vu_cua_khach_hang_lien_quan_den_bao_ve_du_lie__prob_2,Nghĩa vụ của khách hàng trong việc bảo vệ dữ liệu cá nhân,,nghia_vu_cua_khach_hang_trong_viec_bao_ve_du_lieu,,,active
+ho_tro_khach_hang__huong_dan_dang_ky_mobile_money__prob_1,Quy trình đăng ký tài khoản Mobile Money qua các kênh khác nhau,,quy_trinh_dang_ky_tai_khoan_mobile_money_qua_cac_k,,,active
+ho_tro_khach_hang__huong_dan_dang_ky_mobile_money__prob_2,Cách kiểm tra số dư tài khoản Mobile Money,,cach_kiem_tra_so_du_tai_khoan_mobile_money,,,active
+ho_tro_khach_hang__huong_dan_naprut_tien_mobile_money__prob_1,Cách nạp tiền vào tài khoản Mobile Money,,cach_nap_tien_vao_tai_khoan_mobile_money,,,active
+ho_tro_khach_hang__huong_dan_naprut_tien_mobile_money__prob_2,Cách rút tiền từ tài khoản Mobile Money,,cach_rut_tien_tu_tai_khoan_mobile_money,,,active
+ho_tro_khach_hang__huong_dan_chuyen_tien_mobile_money__prob_1,Hướng dẫn chuyển tiền Mobile Money,,huong_dan_chuyen_tien_mobile_money,,,active
+ho_tro_khach_hang__huong_dan_thanh_toan_dich_vu_bang_mobile_money__prob_1,Hướng dẫn thanh toán dịch vụ bằng Mobile Money,,huong_dan_thanh_toan_dich_vu_bang_mobile_money,,,active
+ho_tro_khach_hang__dang_ky_tai_khoan_vnpt_money__prob_1,Đăng ký tài khoản VNPT Money,,dang_ky_tai_khoan_vnpt_money,,,active
+ho_tro_khach_hang__dang_nhap_tai_khoan_vnpt_money__prob_1,Đăng nhập tài khoản VNPT Money,,dang_nhap_tai_khoan_vnpt_money,,,active
+ho_tro_khach_hang__dinh_danh_tai_khoan_vnpt_money__prob_1,Định danh tài khoản VNPT Money tự động,,dinh_danh_tai_khoan_vnpt_money_tu_dong,,,active
+ho_tro_khach_hang__dinh_danh_tai_khoan_vnpt_money__prob_2,Định danh tài khoản VNPT Money thủ công,,dinh_danh_tai_khoan_vnpt_money_thu_cong,,,active
+ho_tro_khach_hang__lien_ket_ngan_hang__prob_1,Cách liên kết ngân hàng trực tiếp,,cach_lien_ket_ngan_hang_truc_tiep,,,active
+ho_tro_khach_hang__lien_ket_ngan_hang__prob_2,Cách liên kết ngân hàng qua thẻ ATM nội địa,,cach_lien_ket_ngan_hang_qua_the_atm_noi_dia,,,active
+ho_tro_khach_hang__huong_dan_thanh_toan__prob_1,Các hình thức thanh toán của VNPT Money,,cac_hinh_thuc_thanh_toan_cua_vnpt_money,,,active
+ho_tro_khach_hang__tro_giup_khac__prob_1,khi hệ thống VNPT-Media không hoạt động tốt hoặc đang bảo trì,,khi_he_thong_vnptmedia_khong_hoat_dong_tot_hoac_d,,,active
+ho_tro_khach_hang__tro_giup_khac__prob_2,Trường Hợp Ví Điện Tử VNPT Pay Của Khách Hàng Bị Khóa,,truong_hop_vi_dien_tu_vnpt_pay_cua_khach_hang_bi_k,,,active
+ho_tro_khach_hang__tro_giup_khac__prob_3,"Khi Rút Tiền Từ Ví Điện Tử VNPT Pay, Có Mất Phí Không?",,khi_rut_tien_tu_vi_dien_tu_vnpt_pay_co_mat_phi_kh,,,active
+ho_tro_khach_hang__tro_giup_khac__prob_4,Các trường hợp không thực hiện được lệnh rút tiền về ngân hàng,,cac_truong_hop_khong_thuc_hien_duoc_lenh_rut_tien,,,active
+ho_tro_khach_hang__tro_giup_khac__prob_5,phí nạp tiền vào Ví điện tử từ tài khoản ngân hàng,,phi_nap_tien_vao_vi_dien_tu_tu_tai_khoan_ngan_hang,,,active
+ho_tro_khach_hang__tro_giup_khac__prob_6,Danh sách các biểu mẫu thay đổi thông tin và đóng tài khoản ví,,danh_sach_cac_bieu_mau_thay_doi_thong_tin_va_dong,,,active
+ho_tro_khach_hang__tai_va_cap_nhat_ung_dung__prob_1,Tôi có thể tải ứng dụng VNPT Money ở đâu?,,toi_co_the_tai_ung_dung_vnpt_money_o_dau,,,active
+ho_tro_khach_hang__tai_va_cap_nhat_ung_dung__prob_2,Cập nhật phiên bản ứng dụng VNPT Money mới nhất?,,cap_nhat_phien_ban_ung_dung_vnpt_money_moi_nhat,,,active
+dieu_khoan__pham_vi_dieu_khoan_chap_thuan_cua_vi_dien_tu_vnpt_pay__prob_1,Ví điện tử VNPT Pay áp dụng cho những đối tượng nào và trong phạm vi nào?,,vi_dien_tu_vnpt_pay_ap_dung_cho_nhung_doi_tuong_na,,,active
+dieu_khoan__pham_vi_dieu_khoan_chap_thuan_cua_vi_dien_tu_vnpt_pay__prob_2,"Khi mở và sử dụng Ví điện tử VNPT Pay, bắt buộc phải chấp thuận những điều khoản nào?",,khi_mo_va_su_dung_vi_dien_tu_vnpt_pay_bat_buoc_ph,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_1,Điều kiện và cách thức mở Ví điện tử VNPT Pay là gì?,,dieu_kien_va_cach_thuc_mo_vi_dien_tu_vnpt_pay_la_g,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_2,Ví điện tử VNPT Pay có bắt buộc phải liên kết với tài khoản ngân hàng không?,,vi_dien_tu_vnpt_pay_co_bat_buoc_phai_lien_ket_voi,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_3,Ví điện tử VNPT Pay được phép giao dịch những gì và hạn mức giao dịch ra sao?,,vi_dien_tu_vnpt_pay_duoc_phep_giao_dich_nhung_gi_v,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_4,Khách hàng có trách nhiệm gì trong việc sử dụng và quản lý Ví điện tử VNPT Pay?,,khach_hang_co_trach_nhiem_gi_trong_viec_su_dung_va,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_5,Những hành vi nào bị cấm khi sử dụng Ví điện tử VNPT Pay?,,nhung_hanh_vi_nao_bi_cam_khi_su_dung_vi_dien_tu_vn,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_6,Trong những trường hợp nào Ví điện tử VNPT Pay bị tạm khóa hoặc phong tỏa?,,trong_nhung_truong_hop_nao_vi_dien_tu_vnpt_pay_bi,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_7,Khi nào Ví điện tử VNPT Pay bị đóng và số dư trong ví sẽ được xử lý ra sao?,,khi_nao_vi_dien_tu_vnpt_pay_bi_dong_va_so_du_trong,,,active
+dieu_khoan__mo_va_su_dung_vi_dien_tu_vnpt_pay__prob_8,Cơ chế trích nợ tự động và thông báo thông tin ví được thực hiện như thế nào?,,co_che_trich_no_tu_dong_va_thong_bao_thong_tin_vi,,,active
+dieu_khoan__phi_dich_vu_vi_dien_tu_vnpt_pay__prob_1,Biểu phí dịch vụ Ví điện tử VNPT Pay được quy định và thay đổi như thế nào?,,bieu_phi_dich_vu_vi_dien_tu_vnpt_pay_duoc_quy_dinh,,,active
+dieu_khoan__phi_dich_vu_vi_dien_tu_vnpt_pay__prob_2,Nghĩa vụ thanh toán phí và yêu cầu về số dư khi sử dụng Ví điện tử VNPT Pay,,nghia_vu_thanh_toan_phi_va_yeu_cau_ve_so_du_khi_su,,,active
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_vi_dien__prob_1,Mục đích sử dụng thông tin và dữ liệu cá nhân của Khách hàng là gì?,,muc_dich_su_dung_thong_tin_va_du_lieu_ca_nhan_cua,,,active
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_vi_dien__prob_2,Trong những trường hợp nào VNPT được cung cấp Thông tin Khách hàng?,,trong_nhung_truong_hop_nao_vnpt_duoc_cung_cap_thon,,,active
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_vi_dien__prob_3,Phạm vi Khách hàng đồng ý cho phép VNPT sử dụng thông tin cá nhân,,pham_vi_khach_hang_dong_y_cho_phep_vnpt_su_dung_th,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_vi_dien_tu_vnpt_pa__prob_1,Khách hàng có những quyền gì khi sử dụng Ví điện tử VNPT Pay?,,khach_hang_co_nhung_quyen_gi_khi_su_dung_vi_dien_t,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_vi_dien_tu_vnpt_pa__prob_2,Nghĩa vụ và trách nhiệm của Khách hàng khi sử dụng Ví điện tử VNPT Pay,,nghia_vu_va_trach_nhiem_cua_khach_hang_khi_su_dung,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnpt_khi_cung_cap_dich_vu_vi_dien_tu_v__prob_1,VNPT có những quyền gì trong quá trình cung cấp dịch vụ Ví điện tử VNPT Pay?,,vnpt_co_nhung_quyen_gi_trong_qua_trinh_cung_cap_di,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnpt_khi_cung_cap_dich_vu_vi_dien_tu_v__prob_2,Trách nhiệm và nghĩa vụ của VNPT đối với Khách hàng khi cung cấp dịch vụ,,trach_nhiem_va_nghia_vu_cua_vnpt_doi_voi_khach_han,,,active
+dieu_khoan__thay_doi_tam_dung_gia_han_va_cham_dut_dich_vu_vi_dien_tu_vnp__prob_1,"Quyền của VNPT trong việc thay đổi, điều chỉnh hoặc tạm ngừng Dịch vụ Ví điện tử VNPT Pay",,quyen_cua_vnpt_trong_viec_thay_doi_dieu_chinh_hoa,,,active
+dieu_khoan__thay_doi_tam_dung_gia_han_va_cham_dut_dich_vu_vi_dien_tu_vnp__prob_2,Các trường hợp và điều kiện chấm dứt việc sử dụng Dịch vụ Ví điện tử VNPT Pay,,cac_truong_hop_va_dieu_kien_cham_dut_viec_su_dung,,,active
+dieu_khoan__giao_dich_khong_huy_ngang_o_vi_dien_tu_vnpt_pay__prob_1,Quy định về tính không hủy ngang của các giao dịch đã thực hiện trên Ví điện tử VNPT Pay,,quy_dinh_ve_tinh_khong_huy_ngang_cua_cac_giao_dich,,,active
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_dien_tu_vnpt_pay__prob_1,Các kênh tiếp nhận yêu cầu tra soát và khiếu nại của Khách hàng,,cac_kenh_tiep_nhan_yeu_cau_tra_soat_va_khieu_nai_c,,,active
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_dien_tu_vnpt_pay__prob_2,"Thời hạn xử lý và thông báo kết quả tra soát, khiếu nại",,thoi_han_xu_ly_va_thong_bao_ket_qua_tra_soat_khie,,,active
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_dien_tu_vnpt_pay__prob_3,Quy định về bồi hoàn tổn thất và xử lý các sai phạm pháp luật liên quan đến giao dịch,,quy_dinh_ve_boi_hoan_ton_that_va_xu_ly_cac_sai_pha,,,active
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_vi_dien_tu_vnpt___prob_1,Trách nhiệm bảo mật thông tin và phạm vi quyền truy cập dữ liệu của Ví điện tử VNPT Pay,,trach_nhiem_bao_mat_thong_tin_va_pham_vi_quyen_tru,,,active
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_vi_dien_tu_vnpt___prob_2,Quy định về quyền sở hữu trí tuệ của Ví điện tử VNPT Pay,,quy_dinh_ve_quyen_so_huu_tri_tue_cua_vi_dien_tu_vn,,,active
+dieu_khoan__hoan_tra_tien_o_vi_dien_tu_vnpt_pay__prob_1,Các trường hợp được hoàn trả tiền vào Ví điện tử VNPT Pay,,cac_truong_hop_duoc_hoan_tra_tien_vao_vi_dien_tu_v,,,active
+dieu_khoan__cac_truong_hop_mien_trach_nhiem_o_vi_dien_tu_vnpt_pay__prob_1,Các trường hợp VNPT được miễn trách nhiệm bồi thường khi cung cấp Dịch vụ Ví điện tử VNPT Pay,,cac_truong_hop_vnpt_duoc_mien_trach_nhiem_boi_thuo,,,active
+dieu_khoan__su_kien_bat_kha_khang_khi_dung_vi_dien_tu_vnpt_pay__prob_1,Khái niệm và phạm vi áp dụng của sự kiện bất khả kháng,,khai_niem_va_pham_vi_ap_dung_cua_su_kien_bat_kha_k,,,active
+dieu_khoan__su_kien_bat_kha_khang_khi_dung_vi_dien_tu_vnpt_pay__prob_2,Quyền miễn trừ trách nhiệm của các bên trong trường hợp xảy ra sự kiện bất khả kháng,,quyen_mien_tru_trach_nhiem_cua_cac_ben_trong_truon,,,active
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_cua_vi_dien_tu_vnpt__prob_1,Luật áp dụng và quy trình giải quyết tranh chấp liên quan đến Dịch vụ Ví điện tử VNPT Pay,,luat_ap_dung_va_quy_trinh_giai_quyet_tranh_chap_li,,,active
+dieu_khoan__dieu_khoan_thi_hanh_cua_vi_dien_tu_vnpt_pay__prob_1,"Hiệu lực của thỏa thuận và các quy định về chuyển nhượng, tính độc lập của điều khoản",,hieu_luc_cua_thoa_thuan_va_cac_quy_dinh_ve_chuyen,,,active
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_dich_vu_mobile_mon__prob_1,Dịch vụ Mobile Money áp dụng cho những đối tượng nào và trong phạm vi nào?,,dich_vu_mobile_money_ap_dung_cho_nhung_doi_tuong_n,,,active
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_dich_vu_mobile_mon__prob_2,Khách hàng cần chấp thuận những điều khoản nào khi sử dụng Mobile Money?,,khach_hang_can_chap_thuan_nhung_dieu_khoan_nao_khi,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_1,Điều kiện và hình thức đăng ký mở tài khoản Mobile Money là gì?,,dieu_kien_va_hinh_thuc_dang_ky_mo_tai_khoan_mobile,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_2,Biểu phí dịch vụ Mobile Money được quy định và thay đổi như thế nào?,,bieu_phi_dich_vu_mobile_money_duoc_quy_dinh_va_tha,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_3,Phạm vi sử dụng và yêu cầu quản lý an toàn tài khoản Mobile Money ra sao?,,pham_vi_su_dung_va_yeu_cau_quan_ly_an_toan_tai_kho,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_4,"Trách nhiệm đối soát, tra soát khiếu nại và xử lý hạch toán sai được quy định thế nào?",,trach_nhiem_doi_soat_tra_soat_khieu_nai_va_xu_ly,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_5,Trong những trường hợp nào VNPT được quyền chủ động trích nợ tài khoản Mobile Money?,,trong_nhung_truong_hop_nao_vnpt_duoc_quyen_chu_don,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_6,Điều kiện và quy trình tạm khóa tài khoản Mobile Money được áp dụng ra sao?,,dieu_kien_va_quy_trinh_tam_khoa_tai_khoan_mobile_m,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_7,Điều kiện và quy trình phong tỏa tài khoản Mobile Money được thực hiện như thế nào?,,dieu_kien_va_quy_trinh_phong_toa_tai_khoan_mobile,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_8,Những trường hợp nào tài khoản Mobile Money bị đóng và thủ tục đóng tài khoản ra sao?,,nhung_truong_hop_nao_tai_khoan_mobile_money_bi_don,,,active
+dieu_khoan__mo_va_su_dung_dich_vu_mobile_money__prob_9,Phương thức thông báo và cách xử lý số dư sau khi đóng tài khoản Mobile Money như thế nào?,,phuong_thuc_thong_bao_va_cach_xu_ly_so_du_sau_khi,,,active
+dieu_khoan__quyen_va_nghia_vu_cac_ben_khi_dung_dich_vu_mobile_money__prob_1,Khách hàng có những quyền gì khi sử dụng dịch vụ Mobile Money?,,khach_hang_co_nhung_quyen_gi_khi_su_dung_dich_vu_m,,,active
+dieu_khoan__quyen_va_nghia_vu_cac_ben_khi_dung_dich_vu_mobile_money__prob_2,Nghĩa vụ và trách nhiệm của Khách hàng khi sử dụng dịch vụ Mobile Money là gì?,,nghia_vu_va_trach_nhiem_cua_khach_hang_khi_su_dung,,,active
+dieu_khoan__quyen_va_nghia_vu_cac_ben_khi_dung_dich_vu_mobile_money__prob_3,Thời hạn gửi yêu cầu tra soát và việc tiếp nhận thông báo được quy định ra sao?,,thoi_han_gui_yeu_cau_tra_soat_va_viec_tiep_nhan_th,,,active
+dieu_khoan__quyen_va_nghia_vu_cac_ben_khi_dung_dich_vu_mobile_money__prob_4,VNPT có những quyền gì trong quá trình cung cấp dịch vụ Mobile Money?,,vnpt_co_nhung_quyen_gi_trong_qua_trinh_cung_cap_di,,,active
+dieu_khoan__quyen_va_nghia_vu_cac_ben_khi_dung_dich_vu_mobile_money__prob_5,Nghĩa vụ và trách nhiệm của VNPT đối với Khách hàng khi cung cấp dịch vụ Mobile Money?,,nghia_vu_va_trach_nhiem_cua_vnpt_doi_voi_khach_han,,,active
+dieu_khoan__giao_dich_khong_huy_ngang_o_dich_vu_mobile_money__prob_1,Các giao dịch Mobile Money đã thực hiện có được hủy hoặc thay đổi không?,,cac_giao_dich_mobile_money_da_thuc_hien_co_duoc_hu,,,active
+dieu_khoan__bieu_phi_va_han_muc_giao_dich__prob_1,Biểu phí và hạn mức giao dịch Mobile Money được áp dụng như thế nào?,,bieu_phi_va_han_muc_giao_dich_mobile_money_duoc_ap,,,active
+dieu_khoan__bieu_phi_va_han_muc_giao_dich__prob_2,VNPT có quyền thay đổi biểu phí và hạn mức giao dịch Mobile Money ra sao?,,vnpt_co_quyen_thay_doi_bieu_phi_va_han_muc_giao_di,,,active
+dieu_khoan__tam_ngung_va_cham_dut_su_dung_dich_vu_mobile_money__prob_1,Khách hàng có quyền chủ động chấm dứt sử dụng dịch vụ Mobile Money trong những trường hợp nào?,,khach_hang_co_quyen_chu_dong_cham_dut_su_dung_dich,,,active
+dieu_khoan__tam_ngung_va_cham_dut_su_dung_dich_vu_mobile_money__prob_2,Trong những trường hợp nào VNPT được quyền tạm dừng hoặc từ chối cung cấp dịch vụ Mobile Money?,,trong_nhung_truong_hop_nao_vnpt_duoc_quyen_tam_dun,,,active
+dieu_khoan__tiep_nhan_cung_cap_thong_tin_giai_quyet_tra_soat_khieu_nai__prob_1,"Khách hàng có thể tra soát, khiếu nại dịch vụ Mobile Money qua những kênh nào?",,khach_hang_co_the_tra_soat_khieu_nai_dich_vu_mobi,,,active
+dieu_khoan__tiep_nhan_cung_cap_thong_tin_giai_quyet_tra_soat_khieu_nai__prob_2,"Thời hạn xử lý và thông báo kết quả tra soát, khiếu nại Mobile Money là bao lâu?",,thoi_han_xu_ly_va_thong_bao_ket_qua_tra_soat_khie,,,active
+dieu_khoan__tiep_nhan_cung_cap_thong_tin_giai_quyet_tra_soat_khieu_nai__prob_3,Việc bồi hoàn tổn thất và xử lý các sai phạm pháp luật liên quan đến giao dịch Mobile Money được quy định thế nào?,,viec_boi_hoan_ton_that_va_xu_ly_cac_sai_pham_phap,,,active
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_dich_vu_mobile_m__prob_1,Trách nhiệm bảo mật thông tin và phạm vi quyền truy cập dữ liệu của VNPT đối với Mobile Money ra sao?,,trach_nhiem_bao_mat_thong_tin_va_pham_vi_quyen_tru,,,active
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_dich_vu_mobile_m__prob_2,Dữ liệu cá nhân và quyền sở hữu trí tuệ trong dịch vụ Mobile Money được bảo vệ như thế nào?,,du_lieu_ca_nhan_va_quyen_so_huu_tri_tue_trong_dich,,,active
+dieu_khoan__truong_hop_bat_kha_khang_o_dich_vu_mobile_money__prob_1,"Khái niệm, phạm vi áp dụng của sự kiện bất khả kháng và quyền miễn trừ trách nhiệm",,khai_niem_pham_vi_ap_dung_cua_su_kien_bat_kha_kha,,,active
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_o_dich_vu_mobile_mo__prob_1,Luật áp dụng và trình tự giải quyết tranh chấp liên quan đến dịch vụ Mobile Money như thế nào?,,luat_ap_dung_va_trinh_tu_giai_quyet_tranh_chap_lie,,,active
+dieu_khoan__hieu_luc__prob_1,Hiệu lực áp dụng và việc thay đổi Bản Điều khoản dịch vụ Mobile Money được quy định ra sao?,,hieu_luc_ap_dung_va_viec_thay_doi_ban_dieu_khoan_d,,,active
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_vi_doanh_nghiep_vn__prob_1,Ví doanh nghiệp VNPT PAY áp dụng cho những đối tượng nào và trong phạm vi nào?,,vi_doanh_nghiep_vnpt_pay_ap_dung_cho_nhung_doi_tuo,,,active
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_vi_doanh_nghiep_vn__prob_2,"Khi mở và sử dụng Ví doanh nghiệp VNPT PAY, tổ chức cần chấp thuận những điều khoản nào?",,khi_mo_va_su_dung_vi_doanh_nghiep_vnpt_pay_to_chu,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_1,Điều kiện và cách thức mở Ví doanh nghiệp VNPT PAY là gì?,,dieu_kien_va_cach_thuc_mo_vi_doanh_nghiep_vnpt_pay,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_2,Ví doanh nghiệp VNPT PAY được liên kết với những tài khoản hoặc phương thức thanh toán nào?,,vi_doanh_nghiep_vnpt_pay_duoc_lien_ket_voi_nhung_t,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_3,Ví doanh nghiệp VNPT PAY được phép thực hiện những giao dịch gì và hạn mức giao dịch ra sao?,,vi_doanh_nghiep_vnpt_pay_duoc_phep_thuc_hien_nhung,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_4,"Tổ chức có trách nhiệm gì trong việc sử dụng, quản lý và tra soát khiếu nại Ví doanh nghiệp VNPT PAY?",,to_chuc_co_trach_nhiem_gi_trong_viec_su_dung_quan,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_5,Quy định và thủ tục ủy quyền sử dụng Ví doanh nghiệp VNPT PAY được thực hiện như thế nào?,,quy_dinh_va_thu_tuc_uy_quyen_su_dung_vi_doanh_nghi,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_6,Những hành vi nào bị cấm khi sử dụng Ví doanh nghiệp VNPT PAY?,,nhung_hanh_vi_nao_bi_cam_khi_su_dung_vi_doanh_nghi,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_7,"Trong những trường hợp nào Ví doanh nghiệp VNPT PAY bị tạm khóa, phong tỏa hoặc đóng?",,trong_nhung_truong_hop_nao_vi_doanh_nghiep_vnpt_pa,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_8,Cơ chế trích nợ tự động trên Ví doanh nghiệp VNPT PAY được thực hiện như thế nào?,,co_che_trich_no_tu_dong_tren_vi_doanh_nghiep_vnpt,,,active
+dieu_khoan__mo_va_su_dung_vi_doanh_nghiep_vnpt_pay__prob_9,"Phương thức thông báo và quy định về mật khẩu, chữ ký điện tử khi sử dụng Ví doanh nghiệp VNPT PAY là gì?",,phuong_thuc_thong_bao_va_quy_dinh_ve_mat_khau_chu,,,active
+dieu_khoan__phi_dich_vu_o_vi_doanh_nghiep_vnpt_pay__prob_1,Biểu phí dịch vụ Ví doanh nghiệp VNPT PAY được quy định và thay đổi như thế nào?,,bieu_phi_dich_vu_vi_doanh_nghiep_vnpt_pay_duoc_quy,,,active
+dieu_khoan__phi_dich_vu_o_vi_doanh_nghiep_vnpt_pay__prob_2,Nghĩa vụ thanh toán phí và cơ chế trích nợ tự động đối với tổ chức được áp dụng ra sao?,,nghia_vu_thanh_toan_phi_va_co_che_trich_no_tu_dong,,,active
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_o_vi_do__prob_1,"Mục đích VNPT thu thập và xử lý dữ liệu, thông tin của khách hàng doanh nghiệp là gì?",,muc_dich_vnpt_thu_thap_va_xu_ly_du_lieu_thong_tin,,,active
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_o_vi_do__prob_2,Trong những trường hợp nào VNPT được cung cấp thông tin doanh nghiệp cho bên thứ ba?,,trong_nhung_truong_hop_nao_vnpt_duoc_cung_cap_thon,,,active
+dieu_khoan__thu_thap_cung_cap_thong_tin_va_xu_ly_du_lieu_ca_nhan_o_vi_do__prob_3,Phạm vi khách hàng doanh nghiệp đồng ý cho phép VNPT sử dụng thông tin doanh nghiệp là gì?,,pham_vi_khach_hang_doanh_nghiep_dong_y_cho_phep_vn,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_vi_doanh_nghiep_vn__prob_1,Khách hàng doanh nghiệp có những quyền gì khi sử dụng Ví doanh nghiệp VNPT PAY?,,khach_hang_doanh_nghiep_co_nhung_quyen_gi_khi_su_d,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_vi_doanh_nghiep_vn__prob_2,Nghĩa vụ và trách nhiệm của khách hàng doanh nghiệp khi sử dụng Ví doanh nghiệp VNPT PAY là gì?,,nghia_vu_va_trach_nhiem_cua_khach_hang_doanh_nghie,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnpt_khi_cung_cap_dich_vu_vi_doanh_ngh__prob_1,VNPT có những quyền gì trong quá trình cung cấp dịch vụ Ví doanh nghiệp VNPT PAY?,,vnpt_co_nhung_quyen_gi_trong_qua_trinh_cung_cap_di,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnpt_khi_cung_cap_dich_vu_vi_doanh_ngh__prob_2,Trách nhiệm và nghĩa vụ của VNPT đối với khách hàng doanh nghiệp khi cung cấp dịch vụ,,trach_nhiem_va_nghia_vu_cua_vnpt_doi_voi_khach_han,,,active
+dieu_khoan__thay_doi_tam_dung_gia_han_va_cham_dut_dich_vu_o_vi_doanh_ngh__prob_1,"Quyền của VNPT trong việc thay đổi, điều chỉnh hoặc tạm ngừng Dịch vụ Ví doanh nghiệp VNPT PAY",,quyen_cua_vnpt_trong_viec_thay_doi_dieu_chinh_hoa,,,active
+dieu_khoan__thay_doi_tam_dung_gia_han_va_cham_dut_dich_vu_o_vi_doanh_ngh__prob_2,Các trường hợp và điều kiện chấm dứt việc sử dụng Dịch vụ Ví doanh nghiệp VNPT PAY là gì?,,cac_truong_hop_va_dieu_kien_cham_dut_viec_su_dung,,,active
+dieu_khoan__giao_dich_khong_huy_ngang_o_vi_doanh_nghiep_vnpt_pay__prob_1,Quy định về tính không hủy ngang của các giao dịch đã thực hiện trên Ví doanh nghiệp VNPT Pay,,quy_dinh_ve_tinh_khong_huy_ngang_cua_cac_giao_dich,,,active
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_doanh_nghiep_vnpt_pay__prob_1,Các kênh tiếp nhận yêu cầu tra soát và khiếu nại của Khách hàng,,cac_kenh_tiep_nhan_yeu_cau_tra_soat_va_khieu_nai_c,,,active
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_doanh_nghiep_vnpt_pay__prob_2,"Thời hạn xử lý và thông báo kết quả tra soát, khiếu nại",,thoi_han_xu_ly_va_thong_bao_ket_qua_tra_soat_khie,,,active
+dieu_khoan__quy_dinh_xu_ly_tra_soat_khieu_nai_o_vi_doanh_nghiep_vnpt_pay__prob_3,Quy định về bồi hoàn tổn thất và xử lý các sai phạm pháp luật liên quan đến giao dịch,,quy_dinh_ve_boi_hoan_ton_that_va_xu_ly_cac_sai_pha,,,active
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_vi_doanh_nghiep___prob_1,Trách nhiệm bảo mật thông tin và phạm vi quyền truy cập dữ liệu của Ví doanh nghiệp VNPT PAY,,trach_nhiem_bao_mat_thong_tin_va_pham_vi_quyen_tru,,,active
+dieu_khoan__bao_mat_thong_tin_va_quyen_so_huu_tri_tue_o_vi_doanh_nghiep___prob_2,Quy định về quyền sở hữu trí tuệ của Ví doanh nghiệp VNPT PAY,,quy_dinh_ve_quyen_so_huu_tri_tue_cua_vi_doanh_nghi,,,active
+dieu_khoan__hoan_tra_tien_o_vi_doanh_nghiep_vnpt_pay__prob_1,Các trường hợp được hoàn trả tiền vào Ví doanh nghiệp VNPT PAY,,cac_truong_hop_duoc_hoan_tra_tien_vao_vi_doanh_ngh,,,active
+dieu_khoan__cac_truong_hop_mien_trach_nhiem_o_vi_doanh_nghiep_vnpt_pay__prob_1,Các trường hợp VNPT được miễn trách nhiệm bồi thường khi cung cấp Dịch vụ Ví doanh nghiệp VNPT PAY,,cac_truong_hop_vnpt_duoc_mien_trach_nhiem_boi_thuo,,,active
+dieu_khoan__su_kien_bat_kha_khang_o_vi_doanh_nghiep_vnpt_pay__prob_1,Khái niệm và phạm vi áp dụng của sự kiện bất khả kháng,,khai_niem_va_pham_vi_ap_dung_cua_su_kien_bat_kha_k,,,active
+dieu_khoan__su_kien_bat_kha_khang_o_vi_doanh_nghiep_vnpt_pay__prob_2,Quyền miễn trừ trách nhiệm của các bên trong trường hợp xảy ra sự kiện bất khả kháng,,quyen_mien_tru_trach_nhiem_cua_cac_ben_trong_truon,,,active
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_cua_vi_doanh_nghiep__prob_1,Luật áp dụng và quy trình giải quyết tranh chấp liên quan đến Dịch vụ Ví doanh nghiệp VNPT PAY,,luat_ap_dung_va_quy_trinh_giai_quyet_tranh_chap_li,,,active
+dieu_khoan__dieu_khoan_thi_hanh_cua_vi_doanh_nghiep_vnpt_pay__prob_1,"Hiệu lực của thỏa thuận và các quy định về chuyển nhượng, tính độc lập của điều khoản",,hieu_luc_cua_thoa_thuan_va_cac_quy_dinh_ve_chuyen,,,active
+dieu_khoan__dieu_kien_su_dung__prob_1,Điều kiện để kích hoạt và sử dụng phương thức xác thực SmartOTP là gì?,,dieu_kien_de_kich_hoat_va_su_dung_phuong_thuc_xac,,,active
+dieu_khoan__pham_vi_dich_vu_va_muc_giao_dich_ap_dung__prob_1,Quy định về phạm vi áp dụng và hạn mức giao dịch khi sử dụng SmartOTP,,quy_dinh_ve_pham_vi_ap_dung_va_han_muc_giao_dich_k,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_smartotp__prob_1,Quyền của Khách hàng khi sử dụng SmartOTP,,quyen_cua_khach_hang_khi_su_dung_smartotp,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_khach_hang_khi_dung_smartotp__prob_2,Nghĩa vụ và trách nhiệm của Khách hàng khi sử dụng SmartOTP,,nghia_vu_va_trach_nhiem_cua_khach_hang_khi_su_dung,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnptmedia_khi_cung_cap_dich_vu_smartot__prob_1,Quyền của VNPT trong quá trình cung cấp dịch vụ SmartOTP,,quyen_cua_vnpt_trong_qua_trinh_cung_cap_dich_vu_sm,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnptmedia_khi_cung_cap_dich_vu_smartot__prob_2,Nghĩa vụ của VNPT đối với Khách hàng khi cung cấp dịch vụ SmartOTP,,nghia_vu_cua_vnpt_doi_voi_khach_hang_khi_cung_cap,,,active
+dieu_khoan__luat_dieu_chinh_va_giai_quyet_tranh_chap_cua_dich_vu_smartot__prob_1,Cơ sở pháp lý và quy trình giải quyết mâu thuẫn liên quan đến SmartOTP,,co_so_phap_ly_va_quy_trinh_giai_quyet_mau_thuan_li,,,active
+dieu_khoan__cac_dieu_khoan_khac__prob_1,Quy định về chuyển nhượng quyền lợi và tính độc lập của các điều khoản SmartOTP,,quy_dinh_ve_chuyen_nhuong_quyen_loi_va_tinh_doc_la,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_quy_khach_khi_dung_dich_vu_thanh_toan___prob_1,Quyền của Khách hàng khi sử dụng dịch vụ thanh toán hóa đơn tự động,,quyen_cua_khach_hang_khi_su_dung_dich_vu_thanh_toa,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_quy_khach_khi_dung_dich_vu_thanh_toan___prob_2,Trách nhiệm của Khách hàng trong việc cung cấp thông tin và xác thực dữ liệu hóa đơn,,trach_nhiem_cua_khach_hang_trong_viec_cung_cap_tho,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_quy_khach_khi_dung_dich_vu_thanh_toan___prob_3,Nghĩa vụ của Khách hàng về nguồn tiền thanh toán và quy trình trích nợ tự động,,nghia_vu_cua_khach_hang_ve_nguon_tien_thanh_toan_v,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnptmedia_khi_cung_cap_dich_vu_thanh_t__prob_1,Quyền của VNPT-Media trong quá trình cung cấp dịch vụ thanh toán hóa đơn tự động,,quyen_cua_vnptmedia_trong_qua_trinh_cung_cap_dich,,,active
+dieu_khoan__quyen_va_nghia_vu_cua_vnptmedia_khi_cung_cap_dich_vu_thanh_t__prob_2,Nghĩa vụ của VNPT-Media đối với Khách hàng khi cung cấp dịch vụ thanh toán hóa đơn tự động,,nghia_vu_cua_vnptmedia_doi_voi_khach_hang_khi_cun,,,active
+dieu_khoan__sua_doi_bo_sung_dieu_kien_va_dieu_khoan__prob_1,"Quy trình sửa đổi, bổ sung và hiệu lực áp dụng của Điều kiện và Điều khoản dịch vụ thanh toán hóa đơn tự động",,quy_trinh_sua_doi_bo_sung_va_hieu_luc_ap_dung_cua,,,active
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_dich_vu_giao_dich___prob_1,Dịch vụ Giao dịch quốc tế áp dụng cho những đối tượng nào và trong phạm vi nào?,,dich_vu_giao_dich_quoc_te_ap_dung_cho_nhung_doi_tu,,,active
+dieu_khoan__pham_vi_ap_dung_dieu_khoan_chap_thuan_cua_dich_vu_giao_dich___prob_2,Quy định về việc VNPT sửa đổi điều khoản và quyền chấm dứt sử dụng dịch vụ của Khách hàng,,quy_dinh_ve_viec_vnpt_sua_doi_dieu_khoan_va_quyen,,,active
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te__prob_1,"Nghĩa vụ cung cấp thông tin và phạm vi VNPT thu thập, xử lý dữ liệu khách hàng khi sử dụng Dịch vụ Giao dịch quốc tế",,nghia_vu_cung_cap_thong_tin_va_pham_vi_vnpt_thu_th,,,active
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te__prob_2,"Điều kiện kích hoạt, sử dụng và phạm vi thanh toán quốc tế của Dịch vụ Giao dịch quốc tế",,dieu_kien_kich_hoat_su_dung_va_pham_vi_thanh_toan,,,active
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te__prob_3,Quy trình Tắt/Bật hoặc Hủy dịch vụ Giao dịch quốc tế,,quy_trinh_tatbat_hoac_huy_dich_vu_giao_dich_quoc,,,active
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te__prob_4,Quy định về quản lý nguồn tiền và trách nhiệm thanh toán giao dịch quốc tế của Khách hàng,,quy_dinh_ve_quan_ly_nguon_tien_va_trach_nhiem_than,,,active
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te__prob_5,Các trường hợp VNPT được quyền từ chối xử lý giao dịch quốc tế,,cac_truong_hop_vnpt_duoc_quyen_tu_choi_xu_ly_giao,,,active
+dieu_khoan__quy_dinh_ve_su_dung_dich_vu_giao_dich_quoc_te__prob_6,Quy định về hạn mức và biểu phí dịch vụ giao dịch quốc tế,,quy_dinh_ve_han_muc_va_bieu_phi_dich_vu_giao_dich,,,active
+dieu_khoan__tra_soat_xu_ly_khieu_nai_trong_qua_trinh_su_dung_dich_vu__prob_1,Quy trình và nghĩa vụ của khách hàng khi phát hiện sai sót giao dịch quốc tế,,quy_trinh_va_nghia_vu_cua_khach_hang_khi_phat_hien,,,active
+dieu_khoan__dieu_khoan_mien_trach_nhiem_cua_dich_vu_giao_dich_quoc_te__prob_1,Trách nhiệm của khách hàng và các trường hợp miễn trừ cho VNPT/Đối tác,,trach_nhiem_cua_khach_hang_va_cac_truong_hop_mien,,,active
+dieu_khoan__thoa_thuan_chung_cua_dich_vu_lien_ket_thanh_toan_vnpt_money__prob_1,Mục đích và cam kết của khách hàng đối với thỏa thuận liên kết thanh toán,,muc_dich_va_cam_ket_cua_khach_hang_doi_voi_thoa_th,,,active
+dieu_khoan__thoa_thuan_chung_cua_dich_vu_lien_ket_thanh_toan_vnpt_money__prob_2,Quy định về việc sửa đổi nội dung và hiệu lực của thỏa thuận liên kết,,quy_dinh_ve_viec_sua_doi_noi_dung_va_hieu_luc_cua,,,active
+dieu_khoan__quy_dinh_su_dung_tinh_nang_lien_ket_tai_khoan__prob_1,Cơ chế xác thực sau khi liên kết thanh toán thành công,,co_che_xac_thuc_sau_khi_lien_ket_thanh_toan_thanh,,,active
+dieu_khoan__quy_dinh_su_dung_tinh_nang_lien_ket_tai_khoan__prob_2,Quy trình và hệ quả của việc hủy liên kết thanh toán,,quy_trinh_va_he_qua_cua_viec_huy_lien_ket_thanh_to,,,active
+dieu_khoan__quy_dinh_su_dung_tinh_nang_lien_ket_tai_khoan__prob_3,Trách nhiệm bảo mật và lựa chọn đối tác liên kết,,trach_nhiem_bao_mat_va_lua_chon_doi_tac_lien_ket,,,active
+dieu_khoan__cam_ket_khi_su_dung_dich_vu_lien_ket_tai_khoan__prob_1,Quyền trích nợ tự động và giới hạn trách nhiệm của VNPT-Media,,quyen_trich_no_tu_dong_va_gioi_han_trach_nhiem_cua,,,active
+dieu_khoan__cam_ket_khi_su_dung_dich_vu_lien_ket_tai_khoan__prob_2,Trách nhiệm của khách hàng về thông tin và bảo mật tài khoản liên kết,,trach_nhiem_cua_khach_hang_ve_thong_tin_va_bao_mat,,,active
+dieu_khoan__dieu_khoan_mien_trach_nhiem_cua_dich_vu_lien_ket_thanh_toan___prob_1,Giới hạn trách nhiệm của VNPT-Media đối với hàng hóa và quy trình sử dụng,,gioi_han_trach_nhiem_cua_vnptmedia_doi_voi_hang_h,,,active
+dieu_khoan__dieu_khoan_mien_trach_nhiem_cua_dich_vu_lien_ket_thanh_toan___prob_2,"Quy định về hoàn trả tiền và giải quyết khiếu nại sản phẩm, dịch vụ",,quy_dinh_ve_hoan_tra_tien_va_giai_quyet_khieu_nai,,,active
+dieu_khoan__canh_bao_hanh_vi_vi_pham__prob_1,Danh sách các hành vi bị nghiêm cấm khi mở và sử dụng Ví điện tử VNPT Pay,,danh_sach_cac_hanh_vi_bi_nghiem_cam_khi_mo_va_su_d,,,active
+dich_vu__nap_dien_thoai__prob_1,Hướng dẫn nạp tiền điện thoại,,huong_dan_nap_tien_dien_thoai,,,active
+dich_vu__nap_dien_thoai__prob_2,Nạp nhầm số điện thoại có lấy lại được tiền không?,,nap_nham_so_dien_thoai_co_lay_lai_duoc_tien_khong,,,active
+dich_vu__nap_dien_thoai__prob_3,Có thể nạp cho các nhà mạng nào?,,co_the_nap_cho_cac_nha_mang_nao,,,active
+dich_vu__nap_dien_thoai__prob_4,Tại sao tài khoản bị trừ tiền nhưng thuê bao chưa nhận được?,,tai_sao_tai_khoan_bi_tru_tien_nhung_thue_bao_chua,,,active
+dich_vu__hoa_don_vien_thong__prob_1,Hướng dẫn thanh toán cước trả sau,,huong_dan_thanh_toan_cuoc_tra_sau,,,active
+dich_vu__hoa_don_vien_thong__prob_2,Thanh toán gộp nhiều hóa đơn cùng lúc được không?,,thanh_toan_gop_nhieu_hoa_don_cung_luc_duoc_khong,,,active
+dich_vu__hoa_don_vien_thong__prob_3,Đăng ký thanh toán tự động cước viễn thông,,dang_ky_thanh_toan_tu_dong_cuoc_vien_thong,,,active
+dich_vu__hoa_don_vien_thong__prob_4,Lấy hóa đơn điện tử sau khi thanh toán ở đâu?,,lay_hoa_don_dien_tu_sau_khi_thanh_toan_o_dau,,,active
+dich_vu__data_3g4g__prob_1,Hướng dẫn mua gói cước Data 3G/4G,,huong_dan_mua_goi_cuoc_data_3g4g,,,active
+dich_vu__data_3g4g__prob_2,Gói data có tự động gia hạn không?,,goi_data_co_tu_dong_gia_han_khong,,,active
+dich_vu__data_3g4g__prob_3,Mua data cho người khác được không?,,mua_data_cho_nguoi_khac_duoc_khong,,,active
+dich_vu__data_3g4g__prob_4,Tại sao mua gói data báo lỗi?,,tai_sao_mua_goi_data_bao_loi,,,active
+dich_vu__mua_ma_the__prob_1,Hướng dẫn sử dụng dịch vụ Mua mã thẻ,,huong_dan_su_dung_dich_vu_mua_ma_the,,,active
+dich_vu__mua_ma_the__prob_2,Kiểm tra lịch sử giao dịch Mua mã thẻ,,kiem_tra_lich_su_giao_dich_mua_ma_the,,,active
+dich_vu__mua_ma_the__prob_3,Lỗi thanh toán Mua mã thẻ bị treo,,loi_thanh_toan_mua_ma_the_bi_treo,,,active
+dich_vu__mua_ma_the__prob_4,Dịch vụ Mua mã thẻ hỗ trợ nguồn tiền nào?,,dich_vu_mua_ma_the_ho_tro_nguon_tien_nao,,,active
+dich_vu__goi_cuoc_mytv__prob_1,Hướng dẫn sử dụng dịch vụ Gói cước MyTV,,huong_dan_su_dung_dich_vu_goi_cuoc_mytv,,,active
+dich_vu__goi_cuoc_mytv__prob_2,Kiểm tra lịch sử giao dịch Gói cước MyTV,,kiem_tra_lich_su_giao_dich_goi_cuoc_mytv,,,active
+dich_vu__goi_cuoc_mytv__prob_3,Lỗi thanh toán Gói cước MyTV bị treo,,loi_thanh_toan_goi_cuoc_mytv_bi_treo,,,active
+dich_vu__goi_cuoc_mytv__prob_4,Dịch vụ Gói cước MyTV hỗ trợ nguồn tiền nào?,,dich_vu_goi_cuoc_mytv_ho_tro_nguon_tien_nao,,,active
+dich_vu__goi_cuoc_digilife__prob_1,Hướng dẫn sử dụng dịch vụ Gói cước DigiLife,,huong_dan_su_dung_dich_vu_goi_cuoc_digilife,,,active
+dich_vu__goi_cuoc_digilife__prob_2,Kiểm tra lịch sử giao dịch Gói cước DigiLife,,kiem_tra_lich_su_giao_dich_goi_cuoc_digilife,,,active
+dich_vu__goi_cuoc_digilife__prob_3,Lỗi thanh toán Gói cước DigiLife bị treo,,loi_thanh_toan_goi_cuoc_digilife_bi_treo,,,active
+dich_vu__goi_cuoc_digilife__prob_4,Dịch vụ Gói cước DigiLife hỗ trợ nguồn tiền nào?,,dich_vu_goi_cuoc_digilife_ho_tro_nguon_tien_nao,,,active
+dich_vu__don_hang_vnpt__prob_1,Hướng dẫn sử dụng dịch vụ Đơn hàng VNPT,,huong_dan_su_dung_dich_vu_don_hang_vnpt,,,active
+dich_vu__don_hang_vnpt__prob_2,Kiểm tra lịch sử giao dịch Đơn hàng VNPT,,kiem_tra_lich_su_giao_dich_don_hang_vnpt,,,active
+dich_vu__don_hang_vnpt__prob_3,Lỗi thanh toán Đơn hàng VNPT bị treo,,loi_thanh_toan_don_hang_vnpt_bi_treo,,,active
+dich_vu__don_hang_vnpt__prob_4,Dịch vụ Đơn hàng VNPT hỗ trợ nguồn tiền nào?,,dich_vu_don_hang_vnpt_ho_tro_nguon_tien_nao,,,active
+dich_vu__di_dong_tra_sau__prob_1,Hướng dẫn thanh toán cước trả sau,,huong_dan_thanh_toan_cuoc_tra_sau,,,active
+dich_vu__di_dong_tra_sau__prob_2,Thanh toán gộp nhiều hóa đơn cùng lúc được không?,,thanh_toan_gop_nhieu_hoa_don_cung_luc_duoc_khong,,,active
+dich_vu__di_dong_tra_sau__prob_3,Đăng ký thanh toán tự động cước viễn thông,,dang_ky_thanh_toan_tu_dong_cuoc_vien_thong,,,active
+dich_vu__di_dong_tra_sau__prob_4,Lấy hóa đơn điện tử sau khi thanh toán ở đâu?,,lay_hoa_don_dien_tu_sau_khi_thanh_toan_o_dau,,,active
+dich_vu__dien_thoai_co_dinh__prob_1,Hướng dẫn sử dụng dịch vụ Điện thoại cố định,,huong_dan_su_dung_dich_vu_dien_thoai_co_dinh,,,active
+dich_vu__dien_thoai_co_dinh__prob_2,Kiểm tra lịch sử giao dịch Điện thoại cố định,,kiem_tra_lich_su_giao_dich_dien_thoai_co_dinh,,,active
+dich_vu__dien_thoai_co_dinh__prob_3,Lỗi thanh toán Điện thoại cố định bị treo,,loi_thanh_toan_dien_thoai_co_dinh_bi_treo,,,active
+dich_vu__dien_thoai_co_dinh__prob_4,Dịch vụ Điện thoại cố định hỗ trợ nguồn tiền nào?,,dich_vu_dien_thoai_co_dinh_ho_tro_nguon_tien_nao,,,active
+dich_vu__thanh_toan_tra_truoc_cuoc__prob_1,Hướng dẫn sử dụng dịch vụ Thanh toán trả trước cước,,huong_dan_su_dung_dich_vu_thanh_toan_tra_truoc_cuo,,,active
+dich_vu__thanh_toan_tra_truoc_cuoc__prob_2,Kiểm tra lịch sử giao dịch Thanh toán trả trước cước,,kiem_tra_lich_su_giao_dich_thanh_toan_tra_truoc_cu,,,active
+dich_vu__thanh_toan_tra_truoc_cuoc__prob_3,Lỗi thanh toán Thanh toán trả trước cước bị treo,,loi_thanh_toan_thanh_toan_tra_truoc_cuoc_bi_treo,,,active
+dich_vu__thanh_toan_tra_truoc_cuoc__prob_4,Dịch vụ Thanh toán trả trước cước hỗ trợ nguồn tiền nào?,,dich_vu_thanh_toan_tra_truoc_cuoc_ho_tro_nguon_tie,,,active
+dich_vu__nap_tien_tu_dong__prob_1,Hướng dẫn sử dụng dịch vụ Nạp tiền tự động,,huong_dan_su_dung_dich_vu_nap_tien_tu_dong,,,active
+dich_vu__nap_tien_tu_dong__prob_2,Kiểm tra lịch sử giao dịch Nạp tiền tự động,,kiem_tra_lich_su_giao_dich_nap_tien_tu_dong,,,active
+dich_vu__nap_tien_tu_dong__prob_3,Lỗi thanh toán Nạp tiền tự động bị treo,,loi_thanh_toan_nap_tien_tu_dong_bi_treo,,,active
+dich_vu__nap_tien_tu_dong__prob_4,Dịch vụ Nạp tiền tự động hỗ trợ nguồn tiền nào?,,dich_vu_nap_tien_tu_dong_ho_tro_nguon_tien_nao,,,active
+dich_vu__tien_dien__prob_1,Hướng dẫn thanh toán tiền Điện,,huong_dan_thanh_toan_tien_dien,,,active
+dich_vu__tien_dien__prob_2,Tôi không nhớ Mã khách hàng (Mã PE) thì làm sao?,,toi_khong_nho_ma_khach_hang_ma_pe_thi_lam_sao,,,active
+dich_vu__tien_dien__prob_3,Thanh toán trùng (đã đóng ở nơi khác) thì xử lý sao?,,thanh_toan_trung_da_dong_o_noi_khac_thi_xu_ly_sa,,,active
+dich_vu__tien_dien__prob_4,Tại sao báo 'Không tìm thấy hóa đơn'?,,tai_sao_bao_khong_tim_thay_hoa_don,,,active
+dich_vu__tien_nuoc__prob_1,Hướng dẫn thanh toán tiền Nước,,huong_dan_thanh_toan_tien_nuoc,,,active
+dich_vu__tien_nuoc__prob_2,Danh sách nhà cung cấp nước chưa đầy đủ?,,danh_sach_nha_cung_cap_nuoc_chua_day_du,,,active
+dich_vu__tien_nuoc__prob_3,Lưu mẫu hóa đơn tiền nước,,luu_mau_hoa_don_tien_nuoc,,,active
+dich_vu__tien_nuoc__prob_4,Thời gian gạch nợ hóa đơn nước,,thoi_gian_gach_no_hoa_don_nuoc,,,active
+dich_vu__ve_sinh_moi_truong__prob_1,Hướng dẫn sử dụng dịch vụ Vệ sinh môi trường,,huong_dan_su_dung_dich_vu_ve_sinh_moi_truong,,,active
+dich_vu__ve_sinh_moi_truong__prob_2,Kiểm tra lịch sử giao dịch Vệ sinh môi trường,,kiem_tra_lich_su_giao_dich_ve_sinh_moi_truong,,,active
+dich_vu__ve_sinh_moi_truong__prob_3,Lỗi thanh toán Vệ sinh môi trường bị treo,,loi_thanh_toan_ve_sinh_moi_truong_bi_treo,,,active
+dich_vu__ve_sinh_moi_truong__prob_4,Dịch vụ Vệ sinh môi trường hỗ trợ nguồn tiền nào?,,dich_vu_ve_sinh_moi_truong_ho_tro_nguon_tien_nao,,,active
+dich_vu__vien_thong_vntt__prob_1,Hướng dẫn sử dụng dịch vụ Viễn thông VNTT,,huong_dan_su_dung_dich_vu_vien_thong_vntt,,,active
+dich_vu__vien_thong_vntt__prob_2,Kiểm tra lịch sử giao dịch Viễn thông VNTT,,kiem_tra_lich_su_giao_dich_vien_thong_vntt,,,active
+dich_vu__vien_thong_vntt__prob_3,Lỗi thanh toán Viễn thông VNTT bị treo,,loi_thanh_toan_vien_thong_vntt_bi_treo,,,active
+dich_vu__vien_thong_vntt__prob_4,Dịch vụ Viễn thông VNTT hỗ trợ nguồn tiền nào?,,dich_vu_vien_thong_vntt_ho_tro_nguon_tien_nao,,,active
+dich_vu__internet_vnpt__prob_1,Hướng dẫn sử dụng dịch vụ Internet VNPT,,huong_dan_su_dung_dich_vu_internet_vnpt,,,active
+dich_vu__internet_vnpt__prob_2,Kiểm tra lịch sử giao dịch Internet VNPT,,kiem_tra_lich_su_giao_dich_internet_vnpt,,,active
+dich_vu__internet_vnpt__prob_3,Lỗi thanh toán Internet VNPT bị treo,,loi_thanh_toan_internet_vnpt_bi_treo,,,active
+dich_vu__internet_vnpt__prob_4,Dịch vụ Internet VNPT hỗ trợ nguồn tiền nào?,,dich_vu_internet_vnpt_ho_tro_nguon_tien_nao,,,active
+dich_vu__internet_viettel__prob_1,Hướng dẫn sử dụng dịch vụ Internet Viettel,,huong_dan_su_dung_dich_vu_internet_viettel,,,active
+dich_vu__internet_viettel__prob_2,Kiểm tra lịch sử giao dịch Internet Viettel,,kiem_tra_lich_su_giao_dich_internet_viettel,,,active
+dich_vu__internet_viettel__prob_3,Lỗi thanh toán Internet Viettel bị treo,,loi_thanh_toan_internet_viettel_bi_treo,,,active
+dich_vu__internet_viettel__prob_4,Dịch vụ Internet Viettel hỗ trợ nguồn tiền nào?,,dich_vu_internet_viettel_ho_tro_nguon_tien_nao,,,active
+dich_vu__dien_nuoc_khac__prob_1,Hướng dẫn thanh toán tiền Điện,,huong_dan_thanh_toan_tien_dien,,,active
+dich_vu__dien_nuoc_khac__prob_2,Tôi không nhớ Mã khách hàng (Mã PE) thì làm sao?,,toi_khong_nho_ma_khach_hang_ma_pe_thi_lam_sao,,,active
+dich_vu__dien_nuoc_khac__prob_3,Thanh toán trùng (đã đóng ở nơi khác) thì xử lý sao?,,thanh_toan_trung_da_dong_o_noi_khac_thi_xu_ly_sa,,,active
+dich_vu__dien_nuoc_khac__prob_4,Tại sao báo 'Không tìm thấy hóa đơn'?,,tai_sao_bao_khong_tim_thay_hoa_don,,,active
+dich_vu__phi_chung_cu__prob_1,Hướng dẫn sử dụng dịch vụ Phí chung cư,,huong_dan_su_dung_dich_vu_phi_chung_cu,,,active
+dich_vu__phi_chung_cu__prob_2,Kiểm tra lịch sử giao dịch Phí chung cư,,kiem_tra_lich_su_giao_dich_phi_chung_cu,,,active
+dich_vu__phi_chung_cu__prob_3,Lỗi thanh toán Phí chung cư bị treo,,loi_thanh_toan_phi_chung_cu_bi_treo,,,active
+dich_vu__phi_chung_cu__prob_4,Dịch vụ Phí chung cư hỗ trợ nguồn tiền nào?,,dich_vu_phi_chung_cu_ho_tro_nguon_tien_nao,,,active
+dich_vu__hoc_phi_vnedu__prob_1,Hướng dẫn đóng học phí VnEdu,,huong_dan_dong_hoc_phi_vnedu,,,active
+dich_vu__hoc_phi_vnedu__prob_2,Không tìm thấy thông tin học sinh?,,khong_tim_thay_thong_tin_hoc_sinh,,,active
+dich_vu__hoc_phi_vnedu__prob_3,Biên lai đóng học phí lấy ở đâu?,,bien_lai_dong_hoc_phi_lay_o_dau,,,active
+dich_vu__hoc_phi_vnedu__prob_4,Có thể đóng hộ học phí cho người khác không?,,co_the_dong_ho_hoc_phi_cho_nguoi_khac_khong,,,active
+dich_vu__hoc_phi__prob_1,Hướng dẫn đóng học phí VnEdu,,huong_dan_dong_hoc_phi_vnedu,,,active
+dich_vu__hoc_phi__prob_2,Không tìm thấy thông tin học sinh?,,khong_tim_thay_thong_tin_hoc_sinh,,,active
+dich_vu__hoc_phi__prob_3,Biên lai đóng học phí lấy ở đâu?,,bien_lai_dong_hoc_phi_lay_o_dau,,,active
+dich_vu__hoc_phi__prob_4,Có thể đóng hộ học phí cho người khác không?,,co_the_dong_ho_hoc_phi_cho_nguoi_khac_khong,,,active
+dich_vu__hoc_phi_ssc__prob_1,Hướng dẫn đóng học phí VnEdu,,huong_dan_dong_hoc_phi_vnedu,,,active
+dich_vu__hoc_phi_ssc__prob_2,Không tìm thấy thông tin học sinh?,,khong_tim_thay_thong_tin_hoc_sinh,,,active
+dich_vu__hoc_phi_ssc__prob_3,Biên lai đóng học phí lấy ở đâu?,,bien_lai_dong_hoc_phi_lay_o_dau,,,active
+dich_vu__hoc_phi_ssc__prob_4,Có thể đóng hộ học phí cho người khác không?,,co_the_dong_ho_hoc_phi_cho_nguoi_khac_khong,,,active
+dich_vu__nap_the_vinaid__prob_1,Hướng dẫn sử dụng dịch vụ Nạp thẻ VinaID,,huong_dan_su_dung_dich_vu_nap_the_vinaid,,,active
+dich_vu__nap_the_vinaid__prob_2,Kiểm tra lịch sử giao dịch Nạp thẻ VinaID,,kiem_tra_lich_su_giao_dich_nap_the_vinaid,,,active
+dich_vu__nap_the_vinaid__prob_3,Lỗi thanh toán Nạp thẻ VinaID bị treo,,loi_thanh_toan_nap_the_vinaid_bi_treo,,,active
+dich_vu__nap_the_vinaid__prob_4,Dịch vụ Nạp thẻ VinaID hỗ trợ nguồn tiền nào?,,dich_vu_nap_the_vinaid_ho_tro_nguon_tien_nao,,,active
+dich_vu__hoc_mai__prob_1,Hướng dẫn sử dụng dịch vụ Học mãi,,huong_dan_su_dung_dich_vu_hoc_mai,,,active
+dich_vu__hoc_mai__prob_2,Kiểm tra lịch sử giao dịch Học mãi,,kiem_tra_lich_su_giao_dich_hoc_mai,,,active
+dich_vu__hoc_mai__prob_3,Lỗi thanh toán Học mãi bị treo,,loi_thanh_toan_hoc_mai_bi_treo,,,active
+dich_vu__hoc_mai__prob_4,Dịch vụ Học mãi hỗ trợ nguồn tiền nào?,,dich_vu_hoc_mai_ho_tro_nguon_tien_nao,,,active
+dich_vu__thu_phi_dh_cd__prob_1,Hướng dẫn sử dụng dịch vụ Thu phí ĐH - CĐ,,huong_dan_su_dung_dich_vu_thu_phi_dh_cd,,,active
+dich_vu__thu_phi_dh_cd__prob_2,Kiểm tra lịch sử giao dịch Thu phí ĐH - CĐ,,kiem_tra_lich_su_giao_dich_thu_phi_dh_cd,,,active
+dich_vu__thu_phi_dh_cd__prob_3,Lỗi thanh toán Thu phí ĐH - CĐ bị treo,,loi_thanh_toan_thu_phi_dh_cd_bi_treo,,,active
+dich_vu__thu_phi_dh_cd__prob_4,Dịch vụ Thu phí ĐH - CĐ hỗ trợ nguồn tiền nào?,,dich_vu_thu_phi_dh_cd_ho_tro_nguon_tien_nao,,,active
+dich_vu__nop_phi_xet_tuyen_dai_hoc__prob_1,Hướng dẫn sử dụng dịch vụ Nộp phí xét tuyển Đại học,,huong_dan_su_dung_dich_vu_nop_phi_xet_tuyen_dai_ho,,,active
+dich_vu__nop_phi_xet_tuyen_dai_hoc__prob_2,Kiểm tra lịch sử giao dịch Nộp phí xét tuyển Đại học,,kiem_tra_lich_su_giao_dich_nop_phi_xet_tuyen_dai_h,,,active
+dich_vu__nop_phi_xet_tuyen_dai_hoc__prob_3,Lỗi thanh toán Nộp phí xét tuyển Đại học bị treo,,loi_thanh_toan_nop_phi_xet_tuyen_dai_hoc_bi_treo,,,active
+dich_vu__nop_phi_xet_tuyen_dai_hoc__prob_4,Dịch vụ Nộp phí xét tuyển Đại học hỗ trợ nguồn tiền nào?,,dich_vu_nop_phi_xet_tuyen_dai_hoc_ho_tro_nguon_tie,,,active
+dich_vu__hoc_phi_dtsoft__prob_1,Hướng dẫn đóng học phí VnEdu,,huong_dan_dong_hoc_phi_vnedu,,,active
+dich_vu__hoc_phi_dtsoft__prob_2,Không tìm thấy thông tin học sinh?,,khong_tim_thay_thong_tin_hoc_sinh,,,active
+dich_vu__hoc_phi_dtsoft__prob_3,Biên lai đóng học phí lấy ở đâu?,,bien_lai_dong_hoc_phi_lay_o_dau,,,active
+dich_vu__hoc_phi_dtsoft__prob_4,Có thể đóng hộ học phí cho người khác không?,,co_the_dong_ho_hoc_phi_cho_nguoi_khac_khong,,,active
+dich_vu__hoc_phi_asc__prob_1,Hướng dẫn đóng học phí VnEdu,,huong_dan_dong_hoc_phi_vnedu,,,active
+dich_vu__hoc_phi_asc__prob_2,Không tìm thấy thông tin học sinh?,,khong_tim_thay_thong_tin_hoc_sinh,,,active
+dich_vu__hoc_phi_asc__prob_3,Biên lai đóng học phí lấy ở đâu?,,bien_lai_dong_hoc_phi_lay_o_dau,,,active
+dich_vu__hoc_phi_asc__prob_4,Có thể đóng hộ học phí cho người khác không?,,co_the_dong_ho_hoc_phi_cho_nguoi_khac_khong,,,active
+dich_vu__truyen_hinh_k__prob_1,Hướng dẫn sử dụng dịch vụ Truyền hình K+,,huong_dan_su_dung_dich_vu_truyen_hinh_k,,,active
+dich_vu__truyen_hinh_k__prob_2,Kiểm tra lịch sử giao dịch Truyền hình K+,,kiem_tra_lich_su_giao_dich_truyen_hinh_k,,,active
+dich_vu__truyen_hinh_k__prob_3,Lỗi thanh toán Truyền hình K+ bị treo,,loi_thanh_toan_truyen_hinh_k_bi_treo,,,active
+dich_vu__truyen_hinh_k__prob_4,Dịch vụ Truyền hình K+ hỗ trợ nguồn tiền nào?,,dich_vu_truyen_hinh_k_ho_tro_nguon_tien_nao,,,active
+dich_vu__vtvcab__prob_1,Hướng dẫn sử dụng dịch vụ VTVcab,,huong_dan_su_dung_dich_vu_vtvcab,,,active
+dich_vu__vtvcab__prob_2,Kiểm tra lịch sử giao dịch VTVcab,,kiem_tra_lich_su_giao_dich_vtvcab,,,active
+dich_vu__vtvcab__prob_3,Lỗi thanh toán VTVcab bị treo,,loi_thanh_toan_vtvcab_bi_treo,,,active
+dich_vu__vtvcab__prob_4,Dịch vụ VTVcab hỗ trợ nguồn tiền nào?,,dich_vu_vtvcab_ho_tro_nguon_tien_nao,,,active
+dich_vu__mytv__prob_1,Hướng dẫn sử dụng dịch vụ MyTV,,huong_dan_su_dung_dich_vu_mytv,,,active
+dich_vu__mytv__prob_2,Kiểm tra lịch sử giao dịch MyTV,,kiem_tra_lich_su_giao_dich_mytv,,,active
+dich_vu__mytv__prob_3,Lỗi thanh toán MyTV bị treo,,loi_thanh_toan_mytv_bi_treo,,,active
+dich_vu__mytv__prob_4,Dịch vụ MyTV hỗ trợ nguồn tiền nào?,,dich_vu_mytv_ho_tro_nguon_tien_nao,,,active
+dich_vu__sieu_tich_luy__prob_1,Hướng dẫn sử dụng dịch vụ Siêu Tích Lũy,,huong_dan_su_dung_dich_vu_sieu_tich_luy,,,active
+dich_vu__sieu_tich_luy__prob_2,Kiểm tra lịch sử giao dịch Siêu Tích Lũy,,kiem_tra_lich_su_giao_dich_sieu_tich_luy,,,active
+dich_vu__sieu_tich_luy__prob_3,Lỗi thanh toán Siêu Tích Lũy bị treo,,loi_thanh_toan_sieu_tich_luy_bi_treo,,,active
+dich_vu__sieu_tich_luy__prob_4,Dịch vụ Siêu Tích Lũy hỗ trợ nguồn tiền nào?,,dich_vu_sieu_tich_luy_ho_tro_nguon_tien_nao,,,active
+dich_vu__bao_hiem_so__prob_1,Mua bảo hiểm trên VNPT Money có được nhận hợp đồng giấy không?,,mua_bao_hiem_tren_vnpt_money_co_duoc_nhan_hop_dong,,,active
+dich_vu__bao_hiem_so__prob_2,Quy trình bồi thường bảo hiểm,,quy_trinh_boi_thuong_bao_hiem,,,active
+dich_vu__bao_hiem_so__prob_3,Cách tra cứu hợp đồng bảo hiểm đã mua,,cach_tra_cuu_hop_dong_bao_hiem_da_mua,,,active
+dich_vu__bao_hiem_so__prob_4,Thanh toán phí bảo hiểm định kỳ,,thanh_toan_phi_bao_hiem_dinh_ky,,,active
+dich_vu__vay__prob_1,Hướng dẫn thanh toán khoản vay tiêu dùng,,huong_dan_thanh_toan_khoan_vay_tieu_dung,,,active
+dich_vu__vay__prob_2,Thanh toán vay bao lâu thì được gạch nợ?,,thanh_toan_vay_bao_lau_thi_duoc_gach_no,,,active
+dich_vu__vay__prob_3,Nhập sai số hợp đồng vay có lấy lại tiền được không?,,nhap_sai_so_hop_dong_vay_co_lay_lai_tien_duoc_khon,,,active
+dich_vu__vay__prob_4,Phí thanh toán vay tiêu dùng,,phi_thanh_toan_vay_tieu_dung,,,active
+dich_vu__mirae_asset__prob_1,Hướng dẫn sử dụng dịch vụ Mirae Asset,,huong_dan_su_dung_dich_vu_mirae_asset,,,active
+dich_vu__mirae_asset__prob_2,Kiểm tra lịch sử giao dịch Mirae Asset,,kiem_tra_lich_su_giao_dich_mirae_asset,,,active
+dich_vu__mirae_asset__prob_3,Lỗi thanh toán Mirae Asset bị treo,,loi_thanh_toan_mirae_asset_bi_treo,,,active
+dich_vu__mirae_asset__prob_4,Dịch vụ Mirae Asset hỗ trợ nguồn tiền nào?,,dich_vu_mirae_asset_ho_tro_nguon_tien_nao,,,active
+dich_vu__bao_hiem_vietinbank__prob_1,Mua bảo hiểm trên VNPT Money có được nhận hợp đồng giấy không?,,mua_bao_hiem_tren_vnpt_money_co_duoc_nhan_hop_dong,,,active
+dich_vu__bao_hiem_vietinbank__prob_2,Quy trình bồi thường bảo hiểm,,quy_trinh_boi_thuong_bao_hiem,,,active
+dich_vu__bao_hiem_vietinbank__prob_3,Cách tra cứu hợp đồng bảo hiểm đã mua,,cach_tra_cuu_hop_dong_bao_hiem_da_mua,,,active
+dich_vu__bao_hiem_vietinbank__prob_4,Thanh toán phí bảo hiểm định kỳ,,thanh_toan_phi_bao_hiem_dinh_ky,,,active
+dich_vu__msb_credit__prob_1,Hướng dẫn thanh toán khoản vay tiêu dùng,,huong_dan_thanh_toan_khoan_vay_tieu_dung,,,active
+dich_vu__msb_credit__prob_2,Thanh toán vay bao lâu thì được gạch nợ?,,thanh_toan_vay_bao_lau_thi_duoc_gach_no,,,active
+dich_vu__msb_credit__prob_3,Nhập sai số hợp đồng vay có lấy lại tiền được không?,,nhap_sai_so_hop_dong_vay_co_lay_lai_tien_duoc_khon,,,active
+dich_vu__msb_credit__prob_4,Phí thanh toán vay tiêu dùng,,phi_thanh_toan_vay_tieu_dung,,,active
+dich_vu__fe_credit__prob_1,Hướng dẫn thanh toán khoản vay tiêu dùng,,huong_dan_thanh_toan_khoan_vay_tieu_dung,,,active
+dich_vu__fe_credit__prob_2,Thanh toán vay bao lâu thì được gạch nợ?,,thanh_toan_vay_bao_lau_thi_duoc_gach_no,,,active
+dich_vu__fe_credit__prob_3,Nhập sai số hợp đồng vay có lấy lại tiền được không?,,nhap_sai_so_hop_dong_vay_co_lay_lai_tien_duoc_khon,,,active
+dich_vu__fe_credit__prob_4,Phí thanh toán vay tiêu dùng,,phi_thanh_toan_vay_tieu_dung,,,active
+dich_vu__aeon_finance__prob_1,Hướng dẫn sử dụng dịch vụ AEON Finance,,huong_dan_su_dung_dich_vu_aeon_finance,,,active
+dich_vu__aeon_finance__prob_2,Kiểm tra lịch sử giao dịch AEON Finance,,kiem_tra_lich_su_giao_dich_aeon_finance,,,active
+dich_vu__aeon_finance__prob_3,Lỗi thanh toán AEON Finance bị treo,,loi_thanh_toan_aeon_finance_bi_treo,,,active
+dich_vu__aeon_finance__prob_4,Dịch vụ AEON Finance hỗ trợ nguồn tiền nào?,,dich_vu_aeon_finance_ho_tro_nguon_tien_nao,,,active
+dich_vu__tiet_kiem_online__prob_1,Hướng dẫn sử dụng dịch vụ Tiết kiệm Online,,huong_dan_su_dung_dich_vu_tiet_kiem_online,,,active
+dich_vu__tiet_kiem_online__prob_2,Kiểm tra lịch sử giao dịch Tiết kiệm Online,,kiem_tra_lich_su_giao_dich_tiet_kiem_online,,,active
+dich_vu__tiet_kiem_online__prob_3,Lỗi thanh toán Tiết kiệm Online bị treo,,loi_thanh_toan_tiet_kiem_online_bi_treo,,,active
+dich_vu__tiet_kiem_online__prob_4,Dịch vụ Tiết kiệm Online hỗ trợ nguồn tiền nào?,,dich_vu_tiet_kiem_online_ho_tro_nguon_tien_nao,,,active
+dich_vu__hoa_don_tai_chinh_bao_hiem__prob_1,Mua bảo hiểm trên VNPT Money có được nhận hợp đồng giấy không?,,mua_bao_hiem_tren_vnpt_money_co_duoc_nhan_hop_dong,,,active
+dich_vu__hoa_don_tai_chinh_bao_hiem__prob_2,Quy trình bồi thường bảo hiểm,,quy_trinh_boi_thuong_bao_hiem,,,active
+dich_vu__hoa_don_tai_chinh_bao_hiem__prob_3,Cách tra cứu hợp đồng bảo hiểm đã mua,,cach_tra_cuu_hop_dong_bao_hiem_da_mua,,,active
+dich_vu__hoa_don_tai_chinh_bao_hiem__prob_4,Thanh toán phí bảo hiểm định kỳ,,thanh_toan_phi_bao_hiem_dinh_ky,,,active
+dich_vu__manulife__prob_1,Hướng dẫn sử dụng dịch vụ Manulife,,huong_dan_su_dung_dich_vu_manulife,,,active
+dich_vu__manulife__prob_2,Kiểm tra lịch sử giao dịch Manulife,,kiem_tra_lich_su_giao_dich_manulife,,,active
+dich_vu__manulife__prob_3,Lỗi thanh toán Manulife bị treo,,loi_thanh_toan_manulife_bi_treo,,,active
+dich_vu__manulife__prob_4,Dịch vụ Manulife hỗ trợ nguồn tiền nào?,,dich_vu_manulife_ho_tro_nguon_tien_nao,,,active
+dich_vu__cong_dich_vu_cong__prob_1,Hướng dẫn sử dụng dịch vụ Cổng dịch vụ công,,huong_dan_su_dung_dich_vu_cong_dich_vu_cong,,,active
+dich_vu__cong_dich_vu_cong__prob_2,Kiểm tra lịch sử giao dịch Cổng dịch vụ công,,kiem_tra_lich_su_giao_dich_cong_dich_vu_cong,,,active
+dich_vu__cong_dich_vu_cong__prob_3,Lỗi thanh toán Cổng dịch vụ công bị treo,,loi_thanh_toan_cong_dich_vu_cong_bi_treo,,,active
+dich_vu__cong_dich_vu_cong__prob_4,Dịch vụ Cổng dịch vụ công hỗ trợ nguồn tiền nào?,,dich_vu_cong_dich_vu_cong_ho_tro_nguon_tien_nao,,,active
+dich_vu__dong_bhyt_bhxh__prob_1,"Hướng dẫn sử dụng dịch vụ Đóng BHYT, BHXH",,huong_dan_su_dung_dich_vu_dong_bhyt_bhxh,,,active
+dich_vu__dong_bhyt_bhxh__prob_2,"Kiểm tra lịch sử giao dịch Đóng BHYT, BHXH",,kiem_tra_lich_su_giao_dich_dong_bhyt_bhxh,,,active
+dich_vu__dong_bhyt_bhxh__prob_3,"Lỗi thanh toán Đóng BHYT, BHXH bị treo",,loi_thanh_toan_dong_bhyt_bhxh_bi_treo,,,active
+dich_vu__dong_bhyt_bhxh__prob_4,"Dịch vụ Đóng BHYT, BHXH hỗ trợ nguồn tiền nào?",,dich_vu_dong_bhyt_bhxh_ho_tro_nguon_tien_nao,,,active
+dich_vu__nop_thue_le_phi_truoc_ba__prob_1,Hướng dẫn sử dụng dịch vụ Nộp thuế - lệ phí trước bạ,,huong_dan_su_dung_dich_vu_nop_thue_le_phi_truoc,,,active
+dich_vu__nop_thue_le_phi_truoc_ba__prob_2,Kiểm tra lịch sử giao dịch Nộp thuế - lệ phí trước bạ,,kiem_tra_lich_su_giao_dich_nop_thue_le_phi_truoc,,,active
+dich_vu__nop_thue_le_phi_truoc_ba__prob_3,Lỗi thanh toán Nộp thuế - lệ phí trước bạ bị treo,,loi_thanh_toan_nop_thue_le_phi_truoc_ba_bi_treo,,,active
+dich_vu__nop_thue_le_phi_truoc_ba__prob_4,Dịch vụ Nộp thuế - lệ phí trước bạ hỗ trợ nguồn tiền nào?,,dich_vu_nop_thue_le_phi_truoc_ba_ho_tro_nguon_ti,,,active
+dich_vu__nop_phat_giao_thong__prob_1,Hướng dẫn sử dụng dịch vụ Nộp phạt giao thông,,huong_dan_su_dung_dich_vu_nop_phat_giao_thong,,,active
+dich_vu__nop_phat_giao_thong__prob_2,Kiểm tra lịch sử giao dịch Nộp phạt giao thông,,kiem_tra_lich_su_giao_dich_nop_phat_giao_thong,,,active
+dich_vu__nop_phat_giao_thong__prob_3,Lỗi thanh toán Nộp phạt giao thông bị treo,,loi_thanh_toan_nop_phat_giao_thong_bi_treo,,,active
+dich_vu__nop_phat_giao_thong__prob_4,Dịch vụ Nộp phạt giao thông hỗ trợ nguồn tiền nào?,,dich_vu_nop_phat_giao_thong_ho_tro_nguon_tien_nao,,,active
+dich_vu__thanh_toan_tu_dong__prob_1,Hướng dẫn sử dụng dịch vụ Thanh toán tự động,,huong_dan_su_dung_dich_vu_thanh_toan_tu_dong,,,active
+dich_vu__thanh_toan_tu_dong__prob_2,Kiểm tra lịch sử giao dịch Thanh toán tự động,,kiem_tra_lich_su_giao_dich_thanh_toan_tu_dong,,,active
+dich_vu__thanh_toan_tu_dong__prob_3,Lỗi thanh toán Thanh toán tự động bị treo,,loi_thanh_toan_thanh_toan_tu_dong_bi_treo,,,active
+dich_vu__thanh_toan_tu_dong__prob_4,Dịch vụ Thanh toán tự động hỗ trợ nguồn tiền nào?,,dich_vu_thanh_toan_tu_dong_ho_tro_nguon_tien_nao,,,active
+dich_vu__nhan_tien_kieu_hoi__prob_1,Hướng dẫn sử dụng dịch vụ Nhận tiền kiều hối,,huong_dan_su_dung_dich_vu_nhan_tien_kieu_hoi,,,active
+dich_vu__nhan_tien_kieu_hoi__prob_2,Kiểm tra lịch sử giao dịch Nhận tiền kiều hối,,kiem_tra_lich_su_giao_dich_nhan_tien_kieu_hoi,,,active
+dich_vu__nhan_tien_kieu_hoi__prob_3,Lỗi thanh toán Nhận tiền kiều hối bị treo,,loi_thanh_toan_nhan_tien_kieu_hoi_bi_treo,,,active
+dich_vu__nhan_tien_kieu_hoi__prob_4,Dịch vụ Nhận tiền kiều hối hỗ trợ nguồn tiền nào?,,dich_vu_nhan_tien_kieu_hoi_ho_tro_nguon_tien_nao,,,active
+dich_vu__diem_thanh_toan__prob_1,Hướng dẫn sử dụng dịch vụ Điểm thanh toán,,huong_dan_su_dung_dich_vu_diem_thanh_toan,,,active
+dich_vu__diem_thanh_toan__prob_2,Kiểm tra lịch sử giao dịch Điểm thanh toán,,kiem_tra_lich_su_giao_dich_diem_thanh_toan,,,active
+dich_vu__diem_thanh_toan__prob_3,Lỗi thanh toán Điểm thanh toán bị treo,,loi_thanh_toan_diem_thanh_toan_bi_treo,,,active
+dich_vu__diem_thanh_toan__prob_4,Dịch vụ Điểm thanh toán hỗ trợ nguồn tiền nào?,,dich_vu_diem_thanh_toan_ho_tro_nguon_tien_nao,,,active
+dich_vu__mua_ve_tau__prob_1,Hướng dẫn đặt vé Xe/Tàu/Máy bay,,huong_dan_dat_ve_xetaumay_bay,,,active
+dich_vu__mua_ve_tau__prob_2,Chính sách hủy vé và hoàn tiền,,chinh_sach_huy_ve_va_hoan_tien,,,active
+dich_vu__mua_ve_tau__prob_3,Làm sao để nhận vé sau khi thanh toán?,,lam_sao_de_nhan_ve_sau_khi_thanh_toan,,,active
+dich_vu__mua_ve_tau__prob_4,Xuất hóa đơn đỏ (VAT) cho vé đã đặt,,xuat_hoa_don_do_vat_cho_ve_da_dat,,,active
+dich_vu__mua_ve_xe_re__prob_1,Hướng dẫn đặt vé Xe/Tàu/Máy bay,,huong_dan_dat_ve_xetaumay_bay,,,active
+dich_vu__mua_ve_xe_re__prob_2,Chính sách hủy vé và hoàn tiền,,chinh_sach_huy_ve_va_hoan_tien,,,active
+dich_vu__mua_ve_xe_re__prob_3,Làm sao để nhận vé sau khi thanh toán?,,lam_sao_de_nhan_ve_sau_khi_thanh_toan,,,active
+dich_vu__mua_ve_xe_re__prob_4,Xuất hóa đơn đỏ (VAT) cho vé đã đặt,,xuat_hoa_don_do_vat_cho_ve_da_dat,,,active
+dich_vu__dat_phong_khach_san__prob_1,Đặt phòng khách sạn có cần thanh toán trước không?,,dat_phong_khach_san_co_can_thanh_toan_truoc_khong,,,active
+dich_vu__dat_phong_khach_san__prob_2,Thay đổi ngày đặt phòng,,thay_doi_ngay_dat_phong,,,active
+dich_vu__dat_phong_khach_san__prob_3,Giá phòng trên app đã bao gồm thuế phí chưa?,,gia_phong_tren_app_da_bao_gom_thue_phi_chua,,,active
+dich_vu__dat_phong_khach_san__prob_4,Chính sách nhận/trả phòng,,chinh_sach_nhantra_phong,,,active
+dich_vu__mua_ve_may_bay_olala__prob_1,Hướng dẫn đặt vé Xe/Tàu/Máy bay,,huong_dan_dat_ve_xetaumay_bay,,,active
+dich_vu__mua_ve_may_bay_olala__prob_2,Chính sách hủy vé và hoàn tiền,,chinh_sach_huy_ve_va_hoan_tien,,,active
+dich_vu__mua_ve_may_bay_olala__prob_3,Làm sao để nhận vé sau khi thanh toán?,,lam_sao_de_nhan_ve_sau_khi_thanh_toan,,,active
+dich_vu__mua_ve_may_bay_olala__prob_4,Xuất hóa đơn đỏ (VAT) cho vé đã đặt,,xuat_hoa_don_do_vat_cho_ve_da_dat,,,active
+dich_vu__ve_may_bay__prob_1,Hướng dẫn đặt vé Xe/Tàu/Máy bay,,huong_dan_dat_ve_xetaumay_bay,,,active
+dich_vu__ve_may_bay__prob_2,Chính sách hủy vé và hoàn tiền,,chinh_sach_huy_ve_va_hoan_tien,,,active
+dich_vu__ve_may_bay__prob_3,Làm sao để nhận vé sau khi thanh toán?,,lam_sao_de_nhan_ve_sau_khi_thanh_toan,,,active
+dich_vu__ve_may_bay__prob_4,Xuất hóa đơn đỏ (VAT) cho vé đã đặt,,xuat_hoa_don_do_vat_cho_ve_da_dat,,,active
+dich_vu__thu_phi_ben_xe__prob_1,Hướng dẫn đặt vé Xe/Tàu/Máy bay,,huong_dan_dat_ve_xetaumay_bay,,,active
+dich_vu__thu_phi_ben_xe__prob_2,Chính sách hủy vé và hoàn tiền,,chinh_sach_huy_ve_va_hoan_tien,,,active
+dich_vu__thu_phi_ben_xe__prob_3,Làm sao để nhận vé sau khi thanh toán?,,lam_sao_de_nhan_ve_sau_khi_thanh_toan,,,active
+dich_vu__thu_phi_ben_xe__prob_4,Xuất hóa đơn đỏ (VAT) cho vé đã đặt,,xuat_hoa_don_do_vat_cho_ve_da_dat,,,active
+dich_vu__dat_xe_taxi__prob_1,Hướng dẫn đặt vé Xe/Tàu/Máy bay,,huong_dan_dat_ve_xetaumay_bay,,,active
+dich_vu__dat_xe_taxi__prob_2,Chính sách hủy vé và hoàn tiền,,chinh_sach_huy_ve_va_hoan_tien,,,active
+dich_vu__dat_xe_taxi__prob_3,Làm sao để nhận vé sau khi thanh toán?,,lam_sao_de_nhan_ve_sau_khi_thanh_toan,,,active
+dich_vu__dat_xe_taxi__prob_4,Xuất hóa đơn đỏ (VAT) cho vé đã đặt,,xuat_hoa_don_do_vat_cho_ve_da_dat,,,active
+dich_vu__pvoil__prob_1,Hướng dẫn sử dụng dịch vụ PVOil,,huong_dan_su_dung_dich_vu_pvoil,,,active
+dich_vu__pvoil__prob_2,Kiểm tra lịch sử giao dịch PVOil,,kiem_tra_lich_su_giao_dich_pvoil,,,active
+dich_vu__pvoil__prob_3,Lỗi thanh toán PVOil bị treo,,loi_thanh_toan_pvoil_bi_treo,,,active
+dich_vu__pvoil__prob_4,Dịch vụ PVOil hỗ trợ nguồn tiền nào?,,dich_vu_pvoil_ho_tro_nguon_tien_nao,,,active
+dich_vu__phuong_tien_di_chuyen__prob_1,Hướng dẫn sử dụng dịch vụ Phương tiện di chuyển,,huong_dan_su_dung_dich_vu_phuong_tien_di_chuyen,,,active
+dich_vu__phuong_tien_di_chuyen__prob_2,Kiểm tra lịch sử giao dịch Phương tiện di chuyển,,kiem_tra_lich_su_giao_dich_phuong_tien_di_chuyen,,,active
+dich_vu__phuong_tien_di_chuyen__prob_3,Lỗi thanh toán Phương tiện di chuyển bị treo,,loi_thanh_toan_phuong_tien_di_chuyen_bi_treo,,,active
+dich_vu__phuong_tien_di_chuyen__prob_4,Dịch vụ Phương tiện di chuyển hỗ trợ nguồn tiền nào?,,dich_vu_phuong_tien_di_chuyen_ho_tro_nguon_tien_na,,,active
+dich_vu__vietlott_vinaphone__prob_1,Hướng dẫn mua vé Vietlott,,huong_dan_mua_ve_vietlott,,,active
+dich_vu__vietlott_vinaphone__prob_2,Nhận thưởng Vietlott như thế nào?,,nhan_thuong_vietlott_nhu_the_nao,,,active
+dich_vu__vietlott_vinaphone__prob_3,Mua vé hộ người khác được không?,,mua_ve_ho_nguoi_khac_duoc_khong,,,active
+dich_vu__vietlott_vinaphone__prob_4,Thời gian ngừng bán vé trong ngày,,thoi_gian_ngung_ban_ve_trong_ngay,,,active
+dich_vu__mua_ve_su_kien__prob_1,Hướng dẫn sử dụng dịch vụ Mua vé sự kiện,,huong_dan_su_dung_dich_vu_mua_ve_su_kien,,,active
+dich_vu__mua_ve_su_kien__prob_2,Kiểm tra lịch sử giao dịch Mua vé sự kiện,,kiem_tra_lich_su_giao_dich_mua_ve_su_kien,,,active
+dich_vu__mua_ve_su_kien__prob_3,Lỗi thanh toán Mua vé sự kiện bị treo,,loi_thanh_toan_mua_ve_su_kien_bi_treo,,,active
+dich_vu__mua_ve_su_kien__prob_4,Dịch vụ Mua vé sự kiện hỗ trợ nguồn tiền nào?,,dich_vu_mua_ve_su_kien_ho_tro_nguon_tien_nao,,,active
+dich_vu__dealtoday__prob_1,Hướng dẫn sử dụng dịch vụ DealToday,,huong_dan_su_dung_dich_vu_dealtoday,,,active
+dich_vu__dealtoday__prob_2,Kiểm tra lịch sử giao dịch DealToday,,kiem_tra_lich_su_giao_dich_dealtoday,,,active
+dich_vu__dealtoday__prob_3,Lỗi thanh toán DealToday bị treo,,loi_thanh_toan_dealtoday_bi_treo,,,active
+dich_vu__dealtoday__prob_4,Dịch vụ DealToday hỗ trợ nguồn tiền nào?,,dich_vu_dealtoday_ho_tro_nguon_tien_nao,,,active
+dich_vu__mua_ve_vui_choi__prob_1,Hướng dẫn sử dụng dịch vụ Mua vé vui chơi,,huong_dan_su_dung_dich_vu_mua_ve_vui_choi,,,active
+dich_vu__mua_ve_vui_choi__prob_2,Kiểm tra lịch sử giao dịch Mua vé vui chơi,,kiem_tra_lich_su_giao_dich_mua_ve_vui_choi,,,active
+dich_vu__mua_ve_vui_choi__prob_3,Lỗi thanh toán Mua vé vui chơi bị treo,,loi_thanh_toan_mua_ve_vui_choi_bi_treo,,,active
+dich_vu__mua_ve_vui_choi__prob_4,Dịch vụ Mua vé vui chơi hỗ trợ nguồn tiền nào?,,dich_vu_mua_ve_vui_choi_ho_tro_nguon_tien_nao,,,active
+dich_vu__lazada__prob_1,Hướng dẫn sử dụng dịch vụ Lazada,,huong_dan_su_dung_dich_vu_lazada,,,active
+dich_vu__lazada__prob_2,Kiểm tra lịch sử giao dịch Lazada,,kiem_tra_lich_su_giao_dich_lazada,,,active
+dich_vu__lazada__prob_3,Lỗi thanh toán Lazada bị treo,,loi_thanh_toan_lazada_bi_treo,,,active
+dich_vu__lazada__prob_4,Dịch vụ Lazada hỗ trợ nguồn tiền nào?,,dich_vu_lazada_ho_tro_nguon_tien_nao,,,active
+dich_vu__sendo__prob_1,Hướng dẫn sử dụng dịch vụ Sendo,,huong_dan_su_dung_dich_vu_sendo,,,active
+dich_vu__sendo__prob_2,Kiểm tra lịch sử giao dịch Sendo,,kiem_tra_lich_su_giao_dich_sendo,,,active
+dich_vu__sendo__prob_3,Lỗi thanh toán Sendo bị treo,,loi_thanh_toan_sendo_bi_treo,,,active
+dich_vu__sendo__prob_4,Dịch vụ Sendo hỗ trợ nguồn tiền nào?,,dich_vu_sendo_ho_tro_nguon_tien_nao,,,active
+dich_vu__vong_quay__prob_1,Hướng dẫn sử dụng dịch vụ Vòng quay,,huong_dan_su_dung_dich_vu_vong_quay,,,active
+dich_vu__vong_quay__prob_2,Kiểm tra lịch sử giao dịch Vòng quay,,kiem_tra_lich_su_giao_dich_vong_quay,,,active
+dich_vu__vong_quay__prob_3,Lỗi thanh toán Vòng quay bị treo,,loi_thanh_toan_vong_quay_bi_treo,,,active
+dich_vu__vong_quay__prob_4,Dịch vụ Vòng quay hỗ trợ nguồn tiền nào?,,dich_vu_vong_quay_ho_tro_nguon_tien_nao,,,active
+dich_vu__vnpt_money_du_hi__prob_1,Hướng dẫn sử dụng dịch vụ VNPT Money du hí,,huong_dan_su_dung_dich_vu_vnpt_money_du_hi,,,active
+dich_vu__vnpt_money_du_hi__prob_2,Kiểm tra lịch sử giao dịch VNPT Money du hí,,kiem_tra_lich_su_giao_dich_vnpt_money_du_hi,,,active
+dich_vu__vnpt_money_du_hi__prob_3,Lỗi thanh toán VNPT Money du hí bị treo,,loi_thanh_toan_vnpt_money_du_hi_bi_treo,,,active
+dich_vu__vnpt_money_du_hi__prob_4,Dịch vụ VNPT Money du hí hỗ trợ nguồn tiền nào?,,dich_vu_vnpt_money_du_hi_ho_tro_nguon_tien_nao,,,active

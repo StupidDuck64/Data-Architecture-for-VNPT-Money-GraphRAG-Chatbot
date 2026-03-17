@@ -1,0 +1,30 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    monitor: 'vnpt-money-platform'
+
+scrape_configs:
+  # Chatbot metrics endpoint (exposed by metrics_server.py)
+  - job_name: 'chatbot'
+    static_configs:
+      - targets: ['chatbot:8001']
+    metrics_path: /metrics/prometheus
+    scrape_interval: 15s
+
+  # Prometheus self-monitoring
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Neo4j metrics (requires NEO4J_METRICS_ENABLED)
+  - job_name: 'neo4j'
+    static_configs:
+      - targets: ['neo4j:2004']
+    metrics_path: /metrics
+    scrape_interval: 30s
+
+  # Redis exporter (optional)
+  # - job_name: 'redis'
+  #   static_configs:
+  #     - targets: ['redis-exporter:9121']

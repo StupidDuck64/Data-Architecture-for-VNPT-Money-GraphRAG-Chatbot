@@ -1,0 +1,18 @@
+[2026-03-13T23:48:40.436+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-13T23:48:40.469+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: vnpt_money_data_pipeline.generate_run_id manual__2026-03-13T23:48:36+00:00 [queued]>
+[2026-03-13T23:48:40.479+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: vnpt_money_data_pipeline.generate_run_id manual__2026-03-13T23:48:36+00:00 [queued]>
+[2026-03-13T23:48:40.479+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-13T23:48:40.497+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): generate_run_id> on 2026-03-13 23:48:36+00:00
+[2026-03-13T23:48:40.503+0000] {standard_task_runner.py:63} INFO - Started process 93 to run task
+[2026-03-13T23:48:40.507+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'vnpt_money_data_pipeline', 'generate_run_id', 'manual__2026-03-13T23:48:36+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/vnpt_pipeline_dag.py', '--cfg-path', '/tmp/tmpi2a9w9ii']
+[2026-03-13T23:48:40.509+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask generate_run_id
+[2026-03-13T23:48:40.595+0000] {task_command.py:426} INFO - Running <TaskInstance: vnpt_money_data_pipeline.generate_run_id manual__2026-03-13T23:48:36+00:00 [running]> on host 7f5837b08817
+[2026-03-13T23:48:40.734+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='vnpt_money_data_pipeline' AIRFLOW_CTX_TASK_ID='generate_run_id' AIRFLOW_CTX_EXECUTION_DATE='2026-03-13T23:48:36+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-13T23:48:36+00:00'
+[2026-03-13T23:48:40.735+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-13T23:48:40.748+0000] {vnpt_pipeline_dag.py:59} INFO - run_id = run_20260313_234840_b6c403
+[2026-03-13T23:48:40.772+0000] {python.py:237} INFO - Done. Returned value was: run_20260313_234840_b6c403
+[2026-03-13T23:48:40.772+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-13T23:48:40.806+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=vnpt_money_data_pipeline, task_id=generate_run_id, run_id=manual__2026-03-13T23:48:36+00:00, execution_date=20260313T234836, start_date=20260313T234840, end_date=20260313T234840
+[2026-03-13T23:48:40.840+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-13T23:48:40.877+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-13T23:48:40.880+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

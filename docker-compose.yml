@@ -1,0 +1,368 @@
+# =============================================================================
+#  VNPT Money Platform – Unified Docker Compose
+#  Service groups:
+#    [Data Layer]  neo4j, minio, minio-init, redis, postgres
+#    [Pipeline]    airflow-init, airflow-webserver, airflow-scheduler,
+#                  airflow-worker, pipeline (--profile oneshot)
+#    [Chatbot]     chatbot
+#    [Monitoring]  prometheus, grafana
+# =============================================================================
+
+# =============================================================================
+# Shared Airflow config (anchored)
+# =============================================================================
+x-airflow-common: &airflow-common
+  build:
+    context: ./data_pipeline
+    dockerfile: docker/Dockerfile.airflow
+  env_file: .env
+  environment:
+    AIRFLOW__CORE__EXECUTOR:                  CeleryExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN:      postgresql+psycopg2://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres:5432/${POSTGRES_DB:-airflow}
+    AIRFLOW__CELERY__BROKER_URL:              redis://redis:6379/0
+    AIRFLOW__CELERY__RESULT_BACKEND:          db+postgresql://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres:5432/${POSTGRES_DB:-airflow}
+    AIRFLOW__CORE__FERNET_KEY:                ${AIRFLOW_FERNET_KEY}
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__CORE__LOAD_EXAMPLES:             "false"
+    AIRFLOW__WEBSERVER__SECRET_KEY:           ${AIRFLOW_SECRET_KEY}
+    PYTHONPATH:                               /opt/airflow
+    # Pipeline env vars
+    NEO4J_URI:        bolt://neo4j:7687
+    NEO4J_USER:       ${NEO4J_USER:-neo4j}
+    NEO4J_PASSWORD:   ${NEO4J_PASSWORD:-neo4jpassword}
+    NEO4J_DATABASE:   ${NEO4J_DATABASE:-neo4j}
+    MINIO_ENDPOINT:   minio:9000
+    MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+    MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+    MINIO_BUCKET:     ${MINIO_BUCKET:-vnpt-datalake}
+    OPENAI_API_KEY:   ${OPENAI_API_KEY:-}
+    # Integration bridge: pipeline exports CSVs here → Neo4j reads them
+    SHARED_DATA_DIR:  /shared_data
+  volumes:
+    - ./data_pipeline/airflow/logs:/opt/airflow/logs
+    - ./data_pipeline/airflow/plugins:/opt/airflow/plugins
+    - ./data_pipeline/airflow/dags:/opt/airflow/dags
+    - ./data_pipeline/pipeline:/opt/airflow/pipeline
+    # Integration bridge volume (write CSVs here)
+    - ./shared_data:/shared_data
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+  restart: unless-stopped
+  networks:
+    - vnpt-network
+
+
+services:
+  # ===========================================================================
+  # DATA LAYER
+  # ===========================================================================
+
+  # ---------------------------------------------------------------------------
+  # Neo4j – SINGLE shared instance (pipeline writes, chatbot reads)
+  # ---------------------------------------------------------------------------
+  neo4j:
+    image: neo4j:5.19-community
+    container_name: vnpt_neo4j
+    ports:
+      - "7474:7474"   # Browser UI
+      - "7687:7687"   # Bolt protocol
+    environment:
+      NEO4J_AUTH:                                       neo4j/${NEO4J_PASSWORD:-neo4jpassword}
+      NEO4J_PLUGINS:                                    '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted:      apoc.*
+      NEO4J_dbms_security_allow__csv__import__from__file__urls: "true"
+      NEO4J_server_memory_heap_initial__size:           256m
+      NEO4J_server_memory_heap_max__size:               512m
+      NEO4J_server_memory_pagecache_size:               256m
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_plugins:/plugins
+      # Integration bridge: pipeline CSVs land here for LOAD CSV access
+      - ./shared_data:/var/lib/neo4j/import
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "${NEO4J_PASSWORD:-neo4jpassword}", "RETURN 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+  # ---------------------------------------------------------------------------
+  # MinIO – S3-compatible data lake for pipeline raw/clean data
+  # ---------------------------------------------------------------------------
+  minio:
+    image: minio/minio:RELEASE.2024-05-01T01-11-10Z
+    container_name: vnpt_minio
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Web console
+    environment:
+      MINIO_ROOT_USER:     ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-minioadmin}
+    volumes:
+      - minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+  minio-init:
+    image: minio/mc:latest
+    container_name: vnpt_minio_init
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+        mc alias set local http://minio:9000 ${MINIO_ACCESS_KEY:-minioadmin} ${MINIO_SECRET_KEY:-minioadmin};
+        mc mb --ignore-existing local/${MINIO_BUCKET:-vnpt-datalake};
+        mc ilm add local/${MINIO_BUCKET:-vnpt-datalake} --prefix 'raw/'   --expiry-days 90;
+        mc ilm add local/${MINIO_BUCKET:-vnpt-datalake} --prefix 'clean/' --expiry-days 365;
+        echo 'MinIO ready';
+      "
+    restart: "no"
+    networks:
+      - vnpt-network
+
+  # ---------------------------------------------------------------------------
+  # Redis – shared broker (Airflow CeleryExecutor + Chatbot session cache)
+  # ---------------------------------------------------------------------------
+  redis:
+    image: redis:7-alpine
+    container_name: vnpt_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+  # ---------------------------------------------------------------------------
+  # PostgreSQL – Airflow metadata database
+  # ---------------------------------------------------------------------------
+  postgres:
+    image: postgres:15-alpine
+    container_name: vnpt_postgres
+    environment:
+      POSTGRES_USER:     ${POSTGRES_USER:-airflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-airflow}
+      POSTGRES_DB:       ${POSTGRES_DB:-airflow}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER:-airflow}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+  # ===========================================================================
+  # DATA ENGINEERING PIPELINE (Airflow)
+  # ===========================================================================
+
+  airflow-init:
+    <<: *airflow-common
+    container_name: vnpt_airflow_init
+    command: >
+      bash -c "
+        airflow db migrate &&
+        airflow users create
+          --username ${AIRFLOW_ADMIN_USER:-admin}
+          --password ${AIRFLOW_ADMIN_PASSWORD:-admin}
+          --firstname Admin --lastname User
+          --role Admin --email admin@example.com || true
+      "
+    restart: "no"
+
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: vnpt_airflow_web
+    command: webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: vnpt_airflow_scheduler
+    command: scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-worker:
+    <<: *airflow-common
+    container_name: vnpt_airflow_worker
+    command: celery worker
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  # One-shot pipeline runner (docker compose --profile oneshot up pipeline)
+  pipeline:
+    build:
+      context: ./data_pipeline
+      dockerfile: docker/Dockerfile.pipeline
+    container_name: vnpt_pipeline
+    env_file: .env
+    environment:
+      NEO4J_URI:        bolt://neo4j:7687
+      NEO4J_USER:       ${NEO4J_USER:-neo4j}
+      NEO4J_PASSWORD:   ${NEO4J_PASSWORD:-neo4jpassword}
+      MINIO_ENDPOINT:   minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      MINIO_BUCKET:     ${MINIO_BUCKET:-vnpt-datalake}
+      OPENAI_API_KEY:   ${OPENAI_API_KEY:-}
+      SHARED_DATA_DIR:  /shared_data
+    volumes:
+      - ./shared_data:/shared_data
+    depends_on:
+      neo4j:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+      minio-init:
+        condition: service_completed_successfully
+    command: ["python", "pipeline/run_pipeline.py"]
+    profiles:
+      - oneshot
+    networks:
+      - vnpt-network
+
+  # ===========================================================================
+  # AI CHATBOT (Chainlit + GraphRAG)
+  # ===========================================================================
+  chatbot:
+    build:
+      context: ./chatbot
+      dockerfile: Dockerfile
+    container_name: vnpt_chatbot
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      # Connect to the SHARED Neo4j (same instance as pipeline)
+      NEO4J_URI:      bolt://neo4j:7687
+      NEO4J_USER:     ${NEO4J_USER:-neo4j}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-neo4jpassword}
+      NEO4J_DATABASE: ${NEO4J_DATABASE:-neo4j}
+      REDIS_URL:      redis://redis:6379/1
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      USE_LLM:        ${USE_LLM:-false}
+      ENABLE_MONITORING: ${ENABLE_MONITORING:-false}
+    depends_on:
+      neo4j:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 256M
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000')\" 2>/dev/null || exit 0"]
+      interval: 60s
+      timeout: 15s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+  # ===========================================================================
+  # MONITORING
+  # ===========================================================================
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: vnpt_prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.enable-lifecycle'
+      - '--storage.tsdb.retention.time=7d'
+    depends_on:
+      - chatbot
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: vnpt_grafana
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER:     ${GRAFANA_ADMIN_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin123}
+      GF_USERS_ALLOW_SIGN_UP:     "false"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./chatbot/monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - prometheus
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+    restart: unless-stopped
+    networks:
+      - vnpt-network
+
+
+# =============================================================================
+# Networks & Volumes
+# =============================================================================
+networks:
+  vnpt-network:
+    driver: bridge
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_plugins:
+  minio_data:
+  redis_data:
+  postgres_data:
+  prometheus_data:
+  grafana_data:
